@@ -7,129 +7,181 @@
     <!-- Include Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap" rel="stylesheet">
     <style>
-body {
-    font-family: 'Noto Sans JP', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    margin: 0;
-    padding: 20px;
-    background-color: #f0f0f0;
-}
+        body {
+            font-family: 'Noto Sans JP', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f0f0f0;
+            overflow-x: hidden; /* Prevent horizontal scroll */
+        }
 
-h1 {
-    text-align: center;
-    color: #ff6f61;
-    font-size: 2em;
-    margin-bottom: 30px;
-    text-shadow: 1px 1px 2px #aaa;
-}
+        h1 {
+            text-align: center;
+            color: #ff6f61;
+            font-size: 2em;
+            margin-bottom: 30px;
+            text-shadow: 1px 1px 2px #aaa;
+        }
 
-.flashcard-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-}
+        .flashcard-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            position: relative;
+            z-index: 1; /* Ensure flashcards are above the overlay */
+        }
 
-.flashcard {
-    background-color: #fff;
-    width: 45%;
-    margin: 10px 0;
-    padding: 20px;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-    border-radius: 8px;
-    text-align: left;
-}
+        .flashcard {
+            background-color: #fff;
+            width: 45%;
+            margin: 10px 0;
+            padding: 20px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            border-radius: 8px;
+            text-align: left;
+            transition: transform 0.3s ease, z-index 0.3s ease;
+            cursor: pointer; /* Added this line */
+        }
 
-.japanese-word {
-    font-size: 1.5em;
-    margin-bottom: 10px;
-}
+        .japanese-word {
+            font-size: 1.5em;
+            margin-bottom: 10px;
+            /* Removed cursor: pointer; from here */
+            transition: font-size 0.3s ease;
+        }
 
-.english-meaning {
-    font-size: 1.2em;
-    color: #555;
-    display: none;
-}
+        .english-meaning {
+            font-size: 1.2em;
+            color: #555;
+            display: none;
+        }
 
-.number {
-    font-weight: bold;
-    color: #ff6f61;
-}
+        .number {
+            font-weight: bold;
+            color: #ff6f61;
+        }
 
-#reveal-btn, #new-words-btn {
-    width: 48%;
-    padding: 15px;
-    font-size: 1em;
-    background-color: #ff6f61;
-    color: #fff;
-    border: none;
-    border-radius: 8px;
-    margin-top: 20px;
-    cursor: pointer;
-}
+        #reveal-btn, #new-words-btn {
+            width: 48%;
+            padding: 15px;
+            font-size: 1em;
+            background-color: #ff6f61;
+            color: #fff;
+            border: none;
+            border-radius: 8px;
+            margin-top: 20px;
+            cursor: pointer;
+            transition: opacity 0.2s ease;
+        }
 
-#new-words-btn {
-    background-color: #4CAF50;
-}
+        #new-words-btn {
+            background-color: #4CAF50;
+        }
 
-#reveal-btn:active, #new-words-btn:active {
-    opacity: 0.8;
-}
+        #reveal-btn:active, #new-words-btn:active {
+            opacity: 0.8;
+        }
 
-.buttons {
-    display: flex;
-    justify-content: space-between;
-}
+        .buttons {
+            display: flex;
+            justify-content: space-between;
+        }
 
-/* Responsive Styles for Smartphones */
-@media screen and (max-width: 600px) {
-    body {
-        padding: 10px;
-    }
+        /* Overlay for Enlarged Flashcard */
+        .overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0,0,0,0.8);
+            display: none; /* Hidden by default */
+            align-items: center;
+            justify-content: center;
+            z-index: 1000;
+        }
 
-    h1 {
-        font-size: 1.5em;
-        margin-bottom: 20px;
-    }
+        .overlay .enlarged-flashcard {
+            background-color: #fff;
+            padding: 40px;
+            border-radius: 10px;
+            text-align: center;
+            max-width: 90%;
+            max-height: 90%;
+            overflow: auto;
+        }
 
-    .flashcard-container {
-        flex-direction: column;
-        align-items: center;
-    }
+        .overlay .enlarged-flashcard .japanese-word {
+            font-size: 3em;
+            margin-bottom: 20px;
+        }
 
-    .flashcard {
-        width: 100%;
-        margin: 5px 0;
-        padding: 10px;
-    }
+        .overlay .enlarged-flashcard .english-meaning {
+            font-size: 2em;
+            color: #555;
+            display: none; /* Hidden by default */
+        }
 
-    .japanese-word {
-        font-size: 1.2em;
-        margin-bottom: 5px;
-    }
+        /* Responsive Styles for Smartphones */
+        @media screen and (max-width: 600px) {
+            body {
+                padding: 10px;
+            }
 
-    .english-meaning {
-        font-size: 1em;
-    }
+            h1 {
+                font-size: 1.5em;
+                margin-bottom: 20px;
+            }
 
-    .number {
-        font-size: 1.2em;
-    }
+            .flashcard-container {
+                flex-direction: column;
+                align-items: center;
+            }
 
-    #reveal-btn, #new-words-btn {
-        width: 100%;
-        padding: 10px;
-        font-size: 0.9em;
-        margin-top: 10px;
-    }
+            .flashcard {
+                width: 100%;
+                margin: 5px 0;
+                padding: 10px;
+            }
 
-    .buttons {
-        flex-direction: column;
-        align-items: stretch;
-    }
+            .japanese-word {
+                font-size: 1.2em;
+                margin-bottom: 5px;
+            }
 
-    .buttons button + button {
-        margin-top: 10px;
-    }
-}
+            .english-meaning {
+                font-size: 1em;
+            }
+
+            .number {
+                font-size: 1.2em;
+            }
+
+            #reveal-btn, #new-words-btn {
+                width: 100%;
+                padding: 10px;
+                font-size: 0.9em;
+                margin-top: 10px;
+            }
+
+            .buttons {
+                flex-direction: column;
+                align-items: stretch;
+            }
+
+            .buttons button + button {
+                margin-top: 10px;
+            }
+
+            /* Adjust overlay flashcard for mobile */
+            .overlay .enlarged-flashcard .japanese-word {
+                font-size: 2em;
+            }
+
+            .overlay .enlarged-flashcard .english-meaning {
+                font-size: 1.5em;
+            }
+        }
     </style>
 </head>
 <body>
@@ -143,8 +195,18 @@ h1 {
         <button id="new-words-btn">新しい言葉</button>
     </div>
 
+    <!-- Overlay for Enlarged Flashcard -->
+    <div class="overlay" id="overlay">
+        <div class="enlarged-flashcard" id="enlarged-flashcard">
+            <div class="japanese-word" id="enlarged-japanese-word"></div>
+            <div class="english-meaning" id="enlarged-english-meaning"></div>
+        </div>
+    </div>
+
     <script>
         let wordsList = [];
+        let isOverlayOpen = false;
+        let translationsRevealed = false; // Added global variable
 
         function parseWords(text) {
             const lines = text.split('\n');
@@ -192,6 +254,14 @@ h1 {
                 englishDiv.className = 'english-meaning';
                 englishDiv.textContent = word.english;
 
+                // Add click event to the entire flashcard
+                card.addEventListener('click', () => {
+                    toggleEnlargedView(word, index); // Pass index here
+                });
+
+                // Remove cursor pointer from japaneseDiv since card is clickable
+                // japaneseDiv.style.cursor = 'default';
+
                 card.appendChild(japaneseDiv);
                 card.appendChild(englishDiv);
                 flashcardContainer.appendChild(card);
@@ -203,15 +273,50 @@ h1 {
             meanings.forEach(meaning => {
                 meaning.style.display = 'block';
             });
+            translationsRevealed = true; // Set to true when revealed
         });
 
         document.getElementById('new-words-btn').addEventListener('click', () => {
-            // Hide meanings if they were revealed
             const meanings = document.querySelectorAll('.english-meaning');
             meanings.forEach(meaning => {
                 meaning.style.display = 'none';
             });
+            translationsRevealed = false; // Reset to false for new words
             createFlashcards();
+        });
+
+        // Function to toggle enlarged view
+        function toggleEnlargedView(word, index) {
+            const overlay = document.getElementById('overlay');
+            const enlargedJapanese = document.getElementById('enlarged-japanese-word');
+            const enlargedEnglish = document.getElementById('enlarged-english-meaning');
+
+            if (!isOverlayOpen) {
+                // Populate overlay with word details
+                enlargedJapanese.innerHTML = `<span class="number">${index + 1}:</span> ${word.japanese}`;
+                
+                if (translationsRevealed) {
+                    enlargedEnglish.style.display = 'block';
+                    enlargedEnglish.textContent = word.english;
+                } else {
+                    enlargedEnglish.style.display = 'none';
+                }
+
+                // Show overlay
+                overlay.style.display = 'flex';
+                isOverlayOpen = true;
+            } else {
+                // Hide overlay
+                overlay.style.display = 'none';
+                isOverlayOpen = false;
+            }
+        }
+
+        // Close overlay when clicking outside the enlarged flashcard
+        document.getElementById('overlay').addEventListener('click', (e) => {
+            if (e.target === e.currentTarget) {
+                toggleEnlargedView(); // Close the overlay
+            }
         });
 
         // Fetch words from words.txt
