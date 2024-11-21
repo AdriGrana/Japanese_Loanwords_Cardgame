@@ -7,68 +7,129 @@
     <!-- Include Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap" rel="stylesheet">
     <style>
-        body {
-            font-family: 'Noto Sans JP', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-            margin: 0;
-            padding: 20px;
-            background-color: #f0f0f0;
-        }
-                /* Added styling for the title */
-        h1 {
-            text-align: center;
-            color: #ff6f61;
-            font-size: 2em;
-            margin-bottom: 30px;
-            text-shadow: 1px 1px 2px #aaa;
-        }
-        .flashcard-container {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: space-around;
-        }
-        .flashcard {
-            background-color: #fff;
-            width: 45%;
-            margin: 10px 0;
-            padding: 20px;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-            border-radius: 8px;
-            text-align: left;
-        }
-        .japanese-word {
-            font-size: 1.5em;
-            margin-bottom: 10px;
-        }
-        .english-meaning {
-            font-size: 1.2em;
-            color: #555;
-            display: none;
-        }
-        .number {
-            font-weight: bold;
-            color: #ff6f61;
-        }
-        #reveal-btn, #new-words-btn {
-            width: 48%;
-            padding: 15px;
-            font-size: 1em;
-            background-color: #ff6f61;
-            color: #fff;
-            border: none;
-            border-radius: 8px;
-            margin-top: 20px;
-            cursor: pointer;
-        }
-        #new-words-btn {
-            background-color: #4CAF50;
-        }
-        #reveal-btn:active, #new-words-btn:active {
-            opacity: 0.8;
-        }
-        .buttons {
-            display: flex;
-            justify-content: space-between;
-        }
+body {
+    font-family: 'Noto Sans JP', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f0f0f0;
+}
+
+h1 {
+    text-align: center;
+    color: #ff6f61;
+    font-size: 2em;
+    margin-bottom: 30px;
+    text-shadow: 1px 1px 2px #aaa;
+}
+
+.flashcard-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.flashcard {
+    background-color: #fff;
+    width: 45%;
+    margin: 10px 0;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    border-radius: 8px;
+    text-align: left;
+}
+
+.japanese-word {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.english-meaning {
+    font-size: 1.2em;
+    color: #555;
+    display: none;
+}
+
+.number {
+    font-weight: bold;
+    color: #ff6f61;
+}
+
+#reveal-btn, #new-words-btn {
+    width: 48%;
+    padding: 15px;
+    font-size: 1em;
+    background-color: #ff6f61;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+#new-words-btn {
+    background-color: #4CAF50;
+}
+
+#reveal-btn:active, #new-words-btn:active {
+    opacity: 0.8;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Responsive Styles for Smartphones */
+@media screen and (max-width: 600px) {
+    body {
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 1.5em;
+        margin-bottom: 20px;
+    }
+
+    .flashcard-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .flashcard {
+        width: 100%;
+        margin: 5px 0;
+        padding: 10px;
+    }
+
+    .japanese-word {
+        font-size: 1.2em;
+        margin-bottom: 5px;
+    }
+
+    .english-meaning {
+        font-size: 1em;
+    }
+
+    .number {
+        font-size: 1.2em;
+    }
+
+    #reveal-btn, #new-words-btn {
+        width: 100%;
+        padding: 10px;
+        font-size: 0.9em;
+        margin-top: 10px;
+    }
+
+    .buttons {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .buttons button + button {
+        margin-top: 10px;
+    }
+}
     </style>
 </head>
 <body>
