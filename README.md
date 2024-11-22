@@ -7,6 +7,8 @@ This project is a game designed to enhance Japanese vocabulary by practicing the
 1. The teacher draws a random number card and shows it to the student (without seeing it themselves).
 2. The student must explain the corresponding word from a set of six displayed words in Japanese, avoiding the use of any loanwords.
 
+The game is inspired by the Japanese card game [**ボブジテン**](https://www.amazon.co.jp/TUKAPON-%E3%83%9C%E3%83%96%E3%82%B8%E3%83%86%E3%83%B3/dp/B07H29XKJB), where players explain loanwords using only Japanese. This digital version adapts the same concept while offering a larger pool of words.
+
 The game includes over **2,500 unique loanwords**, carefully selected from the JMdict dictionary using the "gai" tag, which identifies common loanwords.
 
 ## Features
@@ -27,7 +29,9 @@ The game includes over **2,500 unique loanwords**, carefully selected from the J
 
 ## Setup
 
-Use this link to access the site: https://adrigrana.github.io/Japanese_Loanwords_Cardgame/
+Use this link to access the site: [https://adrigrana.github.io/Japanese_Loanwords_Cardgame/](https://adrigrana.github.io/Japanese_Loanwords_Cardgame/)
+
+---
 
 # 外来語フラッシュカードゲーム
 
@@ -37,6 +41,8 @@ Use this link to access the site: https://adrigrana.github.io/Japanese_Loanwords
 
 1. 教師がランダムに番号カードを引き、それを自分で見ずに生徒に見せます。
 2. 生徒は、表示される6つの単語の中から、引かれた番号に対応する単語を説明します。その際、外来語を使わずに説明します。
+
+このゲームは、日本のカードゲーム[**ボブジテン**](https://www.amazon.co.jp/TUKAPON-%E3%83%9C%E3%83%96%E3%82%B8%E3%83%86%E3%83%B3/dp/B07H29XKJB)にインスパイアされています。このゲームでは、プレイヤーが外来語を日本語だけで説明することが求められます。このデジタル版は、同じコンセプトを採用しつつ、より多くの単語を提供します。
 
 このゲームには、**2,500以上のユニークな外来語**が含まれています。これらはJMdict辞書の「gai」タグ（一般的な外来語を示すタグ）を使用して慎重に選ばれています。
 
@@ -58,4 +64,4 @@ Use this link to access the site: https://adrigrana.github.io/Japanese_Loanwords
 
 ## セットアップ
 
-このリンクを使ってみてください: https://adrigrana.github.io/Japanese_Loanwords_Cardgame/
+このリンクを使ってみてください: [https://adrigrana.github.io/Japanese_Loanwords_Cardgame/](https://adrigrana.github.io/Japanese_Loanwords_Cardgame/)
