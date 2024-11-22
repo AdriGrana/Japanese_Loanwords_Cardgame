@@ -7,9 +7,9 @@ This project is a game designed to enhance Japanese vocabulary by practicing the
 1. The teacher draws a random number card and shows it to the student (without seeing it themselves).
 2. The student must explain the corresponding word from a set of six displayed words in Japanese, avoiding the use of any loanwords.
 
-The game is inspired by the Japanese card game [**ボブジテン**](https://www.amazon.co.jp/TUKAPON-%E3%83%9C%E3%83%96%E3%82%B8%E3%83%86%E3%83%B3/dp/B07H29XKJB), where players explain loanwords using only Japanese. This digital version adapts the same concept while offering a larger pool of words.
+The game is inspired by the Japanese card game [**ボブジテン**](https://www.amazon.co.jp/TUKAPON-ボブジテン/dp/B07H29XKJB), where players explain loanwords using only Japanese. This digital version adapts the same concept while offering a larger pool of words.
 
-The game includes over **2,500 unique loanwords**, carefully selected from the JMdict dictionary using the "gai" tag, which identifies common loanwords.
+The game includes over **2,500 unique loanwords**, carefully selected from the **JMdict** project, a Japanese-Multilingual dictionary aiming to compile a multilingual lexical database with Japanese as the pivot language. You can find more about JMdict [here](https://www.edrdg.org/jmdict/j_jmdict.html). The words were obtained from the JSON files of the JMdict in Yomitan format from [this repository](https://github.com/yomidevs/jmdict-yomitan) and not directly from JMdict.
 
 ## Features
 
@@ -42,9 +42,9 @@ Use this link to access the site: [https://adrigrana.github.io/Japanese_Loanword
 1. 教師がランダムに番号カードを引き、それを自分で見ずに生徒に見せます。
 2. 生徒は、表示される6つの単語の中から、引かれた番号に対応する単語を説明します。その際、外来語を使わずに説明します。
 
-このゲームは、日本のカードゲーム[**ボブジテン**](https://www.amazon.co.jp/TUKAPON-%E3%83%9C%E3%83%96%E3%82%B8%E3%83%86%E3%83%B3/dp/B07H29XKJB)を元に作られました。このゲームでは、プレイヤーが外来語を日本語だけで説明することが求められます。このデジタル版は、同じ発想を取り入れつつ、より多くの単語を提供します。
+このゲームは、日本のカードゲーム[**ボブジテン**](https://www.amazon.co.jp/TUKAPON-ボブジテン/dp/B07H29XKJB)を元に作られました。このゲームでは、プレイヤーが外来語を日本語だけで説明することが求められます。このデジタル版は、同じ発想を取り入れつつ、より多くの単語を提供します。
 
-このゲームには、**2,500以上の独自の外来語**が含まれています。これらはJMdict辞書の「gai」タグ（一般的な外来語を示すタグ）を基に選ばれました。
+このゲームには、**2,500以上の独自の外来語**が含まれています。これらは**JMdict**プロジェクトから選ばれました。JMdictは、日本語を中心とした多言語辞書で、多言語の語彙データベースを作成することを目指しています。詳しくは[こちら](https://www.edrdg.org/jmdict/j_jmdict.html)をご覧ください。これらの単語は、JMdictのYomitan形式のJSONファイルから取得しました（[こちらのリポジトリ](https://github.com/yomidevs/jmdict-yomitan)）から取得し、JMdictから直接取得したものではありません。
 
 ## 特徴
 
