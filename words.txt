@@ -132,7 +132,6 @@
 イースター: Easter
 イースト: yeast
 イエス: Jesus (Christ)
-イエロー: yellow card
 イオン: ion
 イクラ: salted salmon roe
 イコール: equals sign
@@ -273,8 +272,6 @@
 エレキギター: electric guitar
 エレクトロニクス: electronics
 エレベーター: elevator
-エロ: erotic
-エロス: eros
 エンジニア: engineer
 エンジニアリング: engineering
 エンジョイ: enjoying
@@ -688,7 +685,6 @@
 コントラスト: contrast
 コントラバス: contrabass
 コントロール: control
-コンドーム: condom
 コンドミニアム: condominium
 コンドル: condor (incl. other New World vultures of family Cathartidae)
 コンバイン: combine
@@ -803,7 +799,6 @@
 システム: system
 シチュー: stew
 シック: chic
-シックスナイン: sixty-nine (sexual position)
 シドニー: Sydney
 シナモン: cinnamon
 シナリオ: script
@@ -1081,9 +1076,7 @@
 セクシー: sexy
 セクション: section
 セクター: sector
-セクハラ: sexual harassment
 セゾン: season
-セックス: sex
 セッション: session
 セッティング: setting
 セット: set (of things)
@@ -1163,7 +1156,6 @@
 ダイレクト: direct
 ダウン: fall
 ダウンタウン: downtown
-ダッチワイフ: life-sized doll used for masturbation
 ダビング: dubbing
 ダブル: double
 ダム: dam
@@ -1243,7 +1235,6 @@
 テノール: tenor
 テラス: terrace
 テリーヌ: terrine
-テレクラ: telephone dating or sex service
 テレコム: telecommunication
 テレックス: telex
 テレビ: television
@@ -1372,9 +1363,6 @@
 ナウ: trendy
 ナショナリズム: nationalism
 ナショナルリーグ: National League
-ナチ: Nazi
-ナチズム: Nazism
-ナチュラル: natural (sign)
 ナックル: knuckleball
 ナット: nut (as in nut and bolt)
 ナップザック: knapsack
@@ -1681,7 +1669,6 @@
 ピアス: earrings (for pierced ears)
 ピアニスト: pianist
 ピアノ: piano
-ピエロ: clown
 ピカソ: Picasso
 デイ: day (as in holiday)
 バチカン: ∅
@@ -1817,7 +1804,6 @@
 ブルース: blues
 ブルガリア: Bulgaria
 ブルジョア: bourgeois
-ブルセラ: used women's clothing such as bloomers and high-school sailor-suit uniforms (esp. as a source of sexual arousal)
 ブルゾン: blouson
 ブルドーザー: bulldozer
 ブルネット: brunette
@@ -1893,7 +1879,6 @@
 ヘリ: helicopter
 ヘリコプター: helicopter
 ヘル: Mr
-ヘルス: type of brothel/massage parlor (parlour)
 ヘルツ: heart
 ヘルニア: hernia
 ヘルメット: helmet
@@ -1959,7 +1944,6 @@
 ホップ: hop
 ホテル: hotel
 ホノルル: Honolulu
-ホモ: homo
 ホラー: horror
 ホルモン: hormone
 ホルン: horn (musical instrument)
@@ -2025,7 +2009,6 @@
 ポリープ: polyp
 ポリシー: policy
 ポリス: polis (ancient Greek city state)
-ポルノ: pornography
 ポロ: polo
 ポンド: pound (unit of weight)
 ポンプ: pump
@@ -2078,7 +2061,6 @@
 マスタード: mustard
 マスト: mast (of ship)
 マスメディア: mass media
-マゾ: masochist
 マダム: madam
 マッキントッシュ: McIntosh (apple)
 マック: McDonald's (fast food restaurant)
@@ -2272,7 +2254,6 @@
 ヨーロッパ: Europe
 ヨット: yacht (esp. a sailing boat with one mast)
 ヨルダン: Jordan
-ラーゲ: sex position
 ライオン: lion (Panthera leo)
 ライス: rice (esp. when served on a plate)
 ライセンス: license
@@ -2428,7 +2409,6 @@
 レスキュー: rescue
 レストラン: restaurant (esp. Western-style)
 レスリング: wrestling
-レズ: lesbian
 レセプション: reception
 レッカー: tow truck
 レッスン: lesson
@@ -2466,7 +2446,6 @@
 レンタルビデオ: rental video
 レントゲン: X-ray
 ロー: low
-ローション: sexual lubricant
 ロース: sirloin
 ロースト: roast
 ローズ: rose
