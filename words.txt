@@ -1,7 +1,6 @@
 アーキテクチャ: architecture
 アーケード: arcade (street)
 アース: earth
-アース: Earth
 アーチ: home run
 アーティスト: artist
 アーチスト: artist
@@ -9,10 +8,6 @@
 アールデコ: art deco
 アイシャドー: eyeshadow
 アイス: ice
-アイス: ice cream
-アイス: ice pop
-アイス: usurer
-アイス: ice (stimulant drug)
 アイスクリーム: ice cream
 アイスホッケー: ice hockey
 アイゼン: metal pins of climbing shoes
@@ -23,8 +18,6 @@
 アイデンティティ: identity
 アイデンティティー: identity
 アイドル: performer (usu. in a boy band or girl group) with an image cultivated to foster a dedicated fan following
-アイドル: (cultural) icon
-アイドル: idol (object of worship)
 アイヌ: Ainu
 アイメート: seeing-eye dog
 アイライン: eyeliner
@@ -39,11 +32,8 @@
 アクション: action
 アクセサリー: accessory (fashion)
 アクセス: access (to a place, esp. using public transport)
-アクセス: access (to a website, data, etc.)
 アクセル: accelerator
-アクセル: accelerator pedal
 アクセント: accent (on a syllable, word)
-アクセント: (language) accent (e.g. American, British)
 アクリル: acrylic (esp. fibre or resin)
 アクロバット: acrobatics
 アグレッシブ: aggressive
@@ -62,17 +52,10 @@
 アスレチックス: athletics
 アセス: assessment
 アタック: attack
-アタック: attempt
 アダージョ: adagio
 アチーブ: achievement test
 アット: @ sign
 アップ: rise
-アップ: upload
-アップ: close-up
-アップ: finishing shooting (a film)
-アップ: upswept hairstyle
-アップ: being up (in points, games, etc.)
-アップ: warm-up
 アップル: apple
 アディオス: adios
 アトピー: atopic dermatitis
@@ -84,16 +67,13 @@
 アドバルーン: advertising balloon
 アドリブ: ad lib
 アドレス: address
-アドレス: email address
 アナ: announcer
 アナウンサー: announcer
 アナウンス: announcement (esp. over public-address system)
 アナリスト: analyst
 アニメ: animation
 アバウト: approximate (number)
-アバウト: sloppy
 アパート: apartment building
-アパート: apartment
 アパルトヘイト: apartheid
 アビタシオン: habitation
 アフターヌーン: afternoon
@@ -102,9 +82,7 @@
 アプリ: app
 アプリケーション: application
 アプローチ: approach (to a problem, issue, etc.)
-アプローチ: approach shot
 アベック: (romantic) couple
-アベック: back-to-back (e.g. home runs)
 アマ: amateur
 アマチュア: amateur
 アマン: lover
@@ -113,7 +91,6 @@
 アメフト: American football
 アメラグ: American football
 アメリカン: American
-アメリカン: American-style (weak) drip coffee
 アラー: Allah
 アラカルト: à la carte
 アラブ: Arab
@@ -122,7 +99,6 @@
 アルカイズム: archaism
 アルカリ: alkali
 アルコール: alcohol
-アルコール: (alcohol-based) hand sanitizer
 アルゴリズム: algorithm
 アルデヒド: aldehyde
 アルト: alto
@@ -137,10 +113,6 @@
 アレンジ: arrangement (of music)
 アロハ: aloha
 アンカー: anchor (of a ship)
-アンカー: last runner or swimmer in a relay team
-アンカー: news anchor
-アンカー: anchor (clock component)
-アンカー: link to previous post (e.g. in web forums)
 アングラ: underground
 アングロサクソン: Anglo-Saxon
 アンケート: questionnaire
@@ -164,7 +136,6 @@
 イオン: ion
 イクラ: salted salmon roe
 イコール: equals sign
-イコール: equals (as in "A equals B")
 イコン: icon (religious)
 イスラエル: Israel
 イスラム: Islam
@@ -184,20 +155,15 @@
 インストラクター: instructor
 インセンティブ: incentive
 インター: interchange
-インター: international
-インター: international school
 インターン: intern
 インタビュー: interview (i.e. television, newspaper, etc.)
 インタラクティブ: interactive
 インチ: inch
 インテリ: intellectual
-インテリ: intelligentsia
 インテリア: interior (of building, room, vehicle, etc.)
-インテリア: interior design
 インテリジェント: intelligent
 インテル: Intel (chip manufacturer)
 インディアン: (American) Indian
-インディアン: Indian
 イントネーション: intonation
 イントロ: intro
 インドネシア: Indonesia
@@ -214,7 +180,6 @@
 ウインカー: (car) turn signal
 ウィンカー: (car) turn signal
 ウインドウ: window
-ウインドウ: window (shop display)
 ウイ: yes
 ウイニングボール: winning ball
 ウイルス: virus
@@ -230,7 +195,6 @@
 ウエスト: waist
 ウェスト: waist
 ウエット: wet
-ウエット: soft-hearted
 ウォーターカラー: watercolor
 ウォン: won (Korean currency)
 ウオン: won (Korean currency)
@@ -240,11 +204,8 @@
 ウラン: uranium (U)
 エーカー: acre
 エース: ace
-エース: ace (of a team)
-エース: ace (serve)
 エアコン: air conditioner
 タバコ: tobacco
-タバコ: 煙草
 カレーライス: curry and rice
 シャンソン: chanson
 ブラシ: brush
@@ -254,14 +215,11 @@
 チョッキ: waistcoat
 ブリキ: tin plate
 リストラ: (corporate) restructuring
-リストラ: downsizing
 カチューシャ: Alice band
 ワンボックスカー: minivan
 プルークボーゲン: snowplow turn
 ノスタルジック: nostalgic
 ホームページ: home page (of a website or browser)
-ホームページ: web page
-ホームページ: website
 カイゼル: kaiser
 ガーディアン: guardian
 ヴァンパイア: vampire
@@ -273,7 +231,6 @@
 エイリアン: alien
 エキサイティング: exciting
 エキストラ: extra (e.g. in a film)
-エキストラ: extra
 エキスパート: expert
 エキスポ: expo
 エキセントリック: eccentric
@@ -287,14 +244,11 @@
 エコロジー: ecology
 エコロジ: ecology
 エゴ: ego
-エゴ: egoism
-エゴ: egoist
 エジプト: Egypt
 エスカレーター: escalator
 エスカレート: escalation
 エスキモー: Eskimo
 エステティック: beauty treatment
-エステティック: beauty salon
 エステティックサロン: beauty salon
 エスニック: ethnic
 エスプリ: spirit
@@ -305,14 +259,10 @@
 エディター: text editor
 エナジー: energy
 エネルギー: energy
-エネルギー: energy
-エネルギー: energy source
-エネルギー: food energy
 エネルギッシュ: energetic
 エバー: ever
 エピソード: episode
 エプロン: apron
-エプロン: apron (stage)
 エペ: épée (fencing)
 エホバ: Jehovah
 エラー: error
@@ -320,10 +270,8 @@
 エリア: area
 エルニーニョ: El Niño
 エレキ: electricity
-エレキ: electric guitar
 エレキギター: electric guitar
 エレクトロニクス: electronics
-エレベーター: elevator
 エレベーター: elevator
 エロ: erotic
 エロス: eros
@@ -347,20 +295,12 @@
 オートマチック: automatic transmission
 オートメーション: automation
 オートロック: automatic lock
-オートロック: automatic door-locking system
 オードブル: hors d'oeuvre
 オーナー: owner (esp. of a business)
 オーバー: overcoat
-オーバー: exceeding
-オーバー: over par
-オーバー: overexposure
 オーバ: overcoat
-オーバ: exceeding
-オーバ: over par
-オーバ: overexposure
 オーブン: oven
 オープニング: opening credits
-オープニング: theme song (played during the opening credits of a TV show, etc.)
 オープン: opening (a new store, golf course, runway, etc.)
 オープンカー: open-top car
 オーボエ: oboe
@@ -408,17 +348,11 @@
 カー: car
 カーテン: curtain
 カート: (shopping) cart
-カート: kart
 カートリッジ: cartridge
 カード: card (information, filing, etc.)
-カード: card (greetings, congratulations, etc.)
-カード: (Western) playing cards
-カード: credit card
-カード: match
 カーニバル: carnival
 カーネーション: carnation (Dianthus caryophyllus)
 カーブ: curve
-カーブ: curveball
 カーペット: carpet
 カール: curl
 カーレース: car race
@@ -426,22 +360,16 @@
 カウボーイ: cowboy
 カウンセリング: counseling
 カウンター: counter
-カウンター: (service) counter (at a bank, store, etc.)
-カウンター: counter (at a bar, cafe, etc.)
 カウント: count
-カウント: count of balls and strikes
-カウント: count (after a knock-down in boxing)
 カオス: chaos
 カクテル: cocktail
 カジノ: casino
 カステラ: castella (type of sponge cake)
 カスバ: kasbah
 カセット: cassette (tape)
-カセット: game cartridge
 カタル: catarrh
 カタログ: catalog
 カッター: box cutter
-カッター: (tailor's) cutter
 カット: haircut
 カップ: cup (drinking vessel, measure, brassiere, prize, etc.)
 カップル: couple
@@ -461,7 +389,6 @@
 カプリッチオ: capriccio
 カメラ: camera
 カメラマン: photographer
-カメラマン: cameraman
 カメレオン: chameleon
 カラー: color
 カラフル: colorful
@@ -490,7 +417,6 @@
 カンニング: cheating (on an examination)
 カンパ: (political) campaign
 カンフル: camphor
-カンフル: shot in the arm
 ガーゼ: gauze
 ガーデン: garden
 ガードマン: security guard
@@ -499,10 +425,6 @@
 ガイドブック: guidebook
 ガウン: gown
 ガス: gas (as a fuel)
-ガス: gas (state of matter)
-ガス: poison gas
-ガス: gas stove
-ガス: gassed yarn
 ガストアルバイター: foreign worker
 ガスボンベ: gas cylinder
 ガソリン: gasoline
@@ -512,7 +434,6 @@
 ガット: gut (used to make tennis rackets, violin strings, etc.)
 ガボット: gavotte
 ガム: chewing gum
-ガム: gum
 ガメラン: gamelan (traditional Indonesian music ensemble)
 ガラス: glass
 ガリバー: Gulliver
@@ -523,7 +444,6 @@
 キーステーション: key station
 キーパー: goalkeeper
 キープ: to keep (e.g. the lead)
-キープ: to put aside (for someone)
 キーホルダー: keychain
 キーボード: keyboard
 キーワード: keyword
@@ -532,13 +452,10 @@
 キムチ: kimchi
 キャスター: newscaster
 キャッチ: catch
-キャッチ: catcher
-キャッチ: call waiting
 キャッチャー: catcher
 キャッツアイ: cat's-eye (semiprecious stone)
 キャットウォーク: catwalk (at a fashion show)
 キャップ: cap (headwear)
-キャップ: leader
 キャディー: caddie
 キャバレー: cabaret
 キャビア: caviar
@@ -562,11 +479,8 @@
 キューバ: Cuba
 キュロット: culotte
 キリスト: Christ
-キリスト: ∅
 キルビメーター: curvimeter
 キロ: kilo-
-キロ: kilogram
-キロ: kilometre
 キログラム: kilogram
 キロメートル: kilometer
 ギア: gear
@@ -575,14 +489,11 @@
 ギタリスト: guitarist
 ギブアップ: give up
 ギプス: plaster cast
-ギプス: gypsum
 ギャラ: fee paid to performing artists, etc.
 ギャラリー: gallery
-ギャラリー: upper gallery (in a theatre)
 ギャル: gyaru
 ギャルソン: (male) waiter
 ギャング: gang
-ギャング: gangster
 ギャンブラー: gambler
 ギャンブル: gambling
 ギロチン: guillotine
@@ -592,16 +503,12 @@
 クーポン: coupon
 クーラー: air conditioner
 クール: cool (temperature, color, etc.)
-クール: cool (i.e. calm and collected)
-クール: cool (i.e. fashionable, attractive, etc.)
 クイズ: quiz
 クインテット: quintet
 クウェート: Kuwait
-クウェート: ∅
 クエーサー: quasar
 クオート: quart
 クオリティ: quality
-クッキー: cookie
 クッキー: cookie
 クック: cook
 クッション: cushion
@@ -610,7 +517,6 @@
 クラウン: crown
 クラクション: (car) horn
 クラシック: classical music
-クラシック: classic (work)
 クラス: class
 クラスメート: classmate
 クラッチ: clutch
@@ -618,7 +524,6 @@
 クリーク: 5-wood (club)
 クリーニング: cleaning
 クリーム: cream
-クリーム: ice cream
 クリーンアップトリオ: third, fourth, and fifth batters
 クリオール: creole
 クリケット: cricket (game)
@@ -652,12 +557,10 @@
 クロレラ: chlorella (alga)
 グー: good
 グアム: Guam
-グアム: ∅
 グッズ: goods
 グライダー: glider
 グラウンド: field
 グラス: glass (drinking vessel)
-グラス: glass (material)
 グラスファイバー: glass fiber
 グラタン: gratin
 グラチェ: thank you
@@ -677,7 +580,6 @@
 グルー: glue
 グループ: group (usu. of people)
 グルメ: fine food
-グルメ: gourmet
 グレー: grey
 グレイ: grey
 グレープフルーツ: grapefruit
@@ -704,20 +606,13 @@
 ゲノム: genome
 ゲバリスタ: Guevarista
 ゲリラ: guerrilla
-ゲリラ: sudden
 ゲル: gel
-ゲル: yurt
-ゲル: money
 ゲルマン: Germanic (people, language, culture, etc.)
 ゲレンデ: ski slope
 ゲン: gene
 コークスクリュー: corkscrew
 コース: course
-コース: course (of study)
-コース: course (of action)
-コース: full-course meal
 コースター: roller coaster
-コースター: coaster brake
 コーチ: coach
 コート: coat
 コード: code
@@ -725,14 +620,10 @@
 珈琲: coffee
 コーポ: apartment building
 コーラ: cola (carbonated soft drink)
-コーラ: kola tree (Cola acuminata, etc.)
 コーラス: chorus
 コーラン: Koran
 コール: (telephone) call
-コール: call loan (e.g. 30-day call)
 コールド: cold
-コールド: cold cream
-コールド: cold wave
 コールドゲーム: called game
 コアビタシオン: cohabitation
 コアラ: koala
@@ -745,18 +636,15 @@
 コスト: cost
 コック: cook
 コップ: glass (drinking vessel)
-コップ: ∅
 コテージ: cottage
 コニーデ: stratovolcano
 コニャック: cognac
 コネ: connection
 コバルト: cobalt blue
 コピー: copy
-コピー: (advertising) slogan
 コペルニクス: Copernicus (1473-1543)
 コマーシャル: commercial (e.g. TV)
 コマンド: command
-コマンド: command key
 コミック: comic books
 コミュニケ: communiqué
 コミュニケーション: communication
@@ -782,18 +670,15 @@
 コロニー: colony
 コロラド: Colorado
 コロン: eau de Cologne
-コロン: colonist
 コンクール: competition
 コンクリート: concrete
 コンコルド: Concorde
 コンサート: concert
 コンサルタント: consultant
 コンセプト: concept
-コンセプト: intention
 コンセンサス: consensus
 コンセント: electrical outlet
 コンタクト: contact
-コンタクト: contact lens
 コンタクトレンズ: contact lens
 コンチェルト: concerto
 コンテ: storyboard
@@ -808,12 +693,9 @@
 コンドル: condor (incl. other New World vultures of family Cathartidae)
 コンバイン: combine
 コンパ: party
-コンパ: compa (Haitian dance music)
 コンパクト: compact
-コンパクト: compact (cosmetics)
 コンパス: pair of compasses
 コンパニオン: promotional model (at a trade show, etc.)
-コンパニオン: companion
 コンビ: combination
 コンビナート: industrial complex
 コンビニ: convenience store
@@ -821,12 +703,10 @@
 コンピューター: computer
 コンブリオ: con brio
 コンマ: comma
-コンマ: decimal point
 ゴーグル: goggles
 ゴースト: ghost
 ゴーストタウン: ghost town
 ゴール: goal
-ゴール: Gaul
 ゴールイン: reaching the winning post
 ゴールデンアワー: prime time television
 ゴールデンウィーク: Golden Week
@@ -834,9 +714,7 @@
 ゴキブリ: cockroach
 ゴシック: Gothic (style)
 ゴスペル: the Gospels
-ゴスペル: gospel (music)
 ゴム: gum
-ゴム: eraser
 ゴリラ: gorilla (Gorilla spp., esp. western gorilla, Gorilla gorilla)
 ゴルジュ: gorge
 ゴルフ: golf
@@ -848,9 +726,6 @@
 サーバ: server
 サーバー: server
 サービス: service
-サービス: service
-サービス: (after-sales) service
-サービス: service (e.g. in tennis)
 サービスエース: ace (serve; in tennis, volleyball, etc.)
 サーファー: surfer
 サーフィン: surfing
@@ -864,7 +739,6 @@
 サイレン: siren
 サイレント: silent movie
 サイン: autograph
-サイン: sign
 サウジ: Saudi Arabia
 サウジアラビア: Saudi Arabia
 サウナ: sauna
@@ -873,12 +747,10 @@
 サスペンション: suspension (mixture)
 サスペンス: suspense (esp. in a film, novel, etc.)
 サターン: Saturn (Roman god)
-サターン: Saturn (planet)
 サッカー: soccer
 サックス: saxophone
 サテン: satin
 サド: sadist
-サド: sadism
 サハラ: Sahara
 サバンナ: savanna
 サファリ: safari
@@ -903,13 +775,10 @@
 サンバ: samba
 サンフランシスコ: San Francisco
 サンプル: sample
-サンプル: display model (e.g. plastic food models used by restaurants)
 サンボ: self-defence (defense) (type of wrestling)
 ザンビア: Zambia
 シークレットサービス: secret service
 シーズン: season (period in which regulated games are played)
-シーズン: season (division of the year)
-シーズン: season (of a TV show, etc.)
 シーズンオフ: off-season
 シーソーゲーム: seesaw game
 シーツ: sheet
@@ -923,7 +792,6 @@
 シェーク: milkshake
 シェーバー: shaver
 シェア: sharing
-シェア: market share
 シェイプアップ: getting in shape
 シェパード: German shepherd
 シェフ: chef
@@ -932,8 +800,6 @@
 シカゴ: Chicago
 シクラメン: cyclamen (esp. species Cyclamen persicum)
 シスター: sister (sibling)
-シスター: (Catholic) sister
-シスター: sister (female partner in a homosexual relationship)
 システム: system
 シチュー: stew
 シック: chic
@@ -946,13 +812,10 @@
 シノニム: synonym
 シフォン: chiffon
 シフト: shift
-シフト: (work) shift
 シベリア: Siberia
-シベリア: ∅
 シミーズ: chemise
 シミュレーション: simulation
 シャープ: sharp
-シャープ: mechanical pencil
 シャープペンシル: propelling pencil
 シャッター: (camera) shutter
 シャットアウト: shutout
@@ -960,9 +823,6 @@
 シャツ: shirt (undergarment)
 シャトー: château
 シャトル: shuttlecock
-シャトル: shuttle service (e.g. bus)
-シャトル: shuttle (weaving)
-シャトル: space shuttle
 シャトルバス: shuttle bus
 シャフト: shaft (e.g. machinery)
 シャベル: shovel
@@ -972,7 +832,6 @@
 シャン: beautiful
 シャンデリア: chandelier
 シャンパン: champagne
-シャンパン: ∅
 シャンプー: shampoo
 シュークリーム: cream puff
 シューズ: shoes
@@ -989,17 +848,12 @@
 ショーウィンドウ: display window
 ショーケース: showcase
 ショート: short
-ショート: shortstop
-ショート: short hair
-ショート: short selling
 ショートカット: shortcut
-ショートカット: short-cut hairstyle for women
 ショートパンツ: shorts
 ショールーム: showroom
 ショッキング: shocking
 ショック: shock (psychological)
 ショット: shot
-ショット: shooting (a basketball)
 ショッピング: shopping
 ショッピングモール: shopping mall
 ショップ: shop
@@ -1009,26 +863,17 @@
 シリアス: serious
 シリウス: Sirius (star in the constellation Canis Major)
 シリコン: silicon (Si)
-シリコン: silicone (synthetic polymer)
 シルエット: silhouette
 シルク: silk
 シルクロード: Silk Road
 シロップ: syrup
 シン: thin
-シン: shin
 シンガー: singer
 シンガポール: Singapore
 シンク: sink
 シンクロ: synchronization
-シンクロ: synchronized swimming
 シングル: single
-シングル: single bed
-シングル: single width (of cloth; usu. 0.71 meters)
-シングル: singles (tennis, badminton, etc.)
-シングル: single
-シングル: single-figure handicap
 シングルス: singles (tennis, badminton, etc.)
-シングルス: single people
 シンドローム: syndrome
 シンナー: (paint) thinner
 シンパ: (Communist, union, etc.) sympathizer
@@ -1040,7 +885,6 @@
 ジーン: jeans
 ジーンズ: jeans
 ジェスチャー: gesture
-ジェスチャー: charades (game)
 ジェット: jet
 ジェットコースター: roller coaster
 ジェラシー: jealousy
@@ -1051,7 +895,6 @@
 ジプシー: gypsy
 ジム: gym
 ジャー: vacuum bottle
-ジャー: jar
 ジャーナリスト: journalist
 ジャーナリズム: journalism
 ジャカルタ: Jakarta (Indonesia)
@@ -1067,16 +910,12 @@
 ジャンクション: junction
 ジャングル: jungle
 ジャンプ: jump
-ジャンプ: jumping event (skiing, track and field)
 ジャンボ: jumbo jet
 ジャンル: genre
 ジュース: juice
-ジュース: soft drink (usu. fruit-based)
 ジューンブライド: June bride
 ジュネーブ: Geneva
-ジュネーブ: ∅
 ジュピター: Jupiter (Roman god)
-ジュピター: Jupiter (planet)
 ジュリー: jury
 ジョーカー: joker
 ジョーク: joke
@@ -1090,21 +929,14 @@
 バファリン: Bufferin (brand of buffered aspirin)
 コレラ: cholera
 ナビ: navigation
-ナビ: navigator
 ジンバブエ: Zimbabwe
 スーツ: suit (clothing)
-スーツ: suit (playing cards)
 スーツケース: suitcase
 スーパー: supermarket
-スーパー: subtitles
-スーパー: superheterodyne
-スーパー: super
 スーパーボウル: Super Bowl
 スーパーマン: superman
 スープ: (Western) soup
 スイート: sweet (of alcohol)
-スイート: suite (of rooms)
-スイート: suite
 スイッチ: switch
 スイマー: swimmer
 スイング: swing (of a golf club, tennis racket, etc.)
@@ -1114,7 +946,6 @@
 スカッシュ: squash (drink)
 スカンク: skunk (i.e. preventing someone from scoring entirely)
 スキー: skiing
-スキー: ski
 スキーヤー: skier
 スキッパー: skipper
 スキャンダル: scandal
@@ -1139,10 +970,8 @@
 スコール: skoal
 スコア: score
 スコッチ: Scotch
-スコッチ: Scotch tweed
 スコップ: shovel
 スター: star (cinema, sports, etc.)
-スター: star symbol
 スターズアンドストライプス: Stars and Stripes (US flag)
 スタート: start
 スタートライン: starting line
@@ -1151,11 +980,8 @@
 スタジアム: stadium
 スタジオ: studio
 スタッフ: staff
-スタッフ: stuff
 スタメン: starting lineup
 スタンド: stand (e.g. newspaper stand)
-スタンド: desk lamp
-スタンド: station (e.g. gas station)
 スチーム: steam
 スチール: steel
 スチュワーデス: stewardess
@@ -1166,9 +992,7 @@
 ステッカー: sticker
 ステッキ: (walking) stick
 ステップ: step (movement)
-ステップ: (dance) step
 ステレオ: stereo (sound)
-ステレオ: stereo (player, set)
 ステンレス: stainless steel
 スト: strike (i.e. industrial action)
 ストーブ: (room) heater
@@ -1176,7 +1000,6 @@
 ストア: store
 ストッキング: stockings
 ストック: stock
-ストック: ski pole
 ストップ: stop
 ストップウォッチ: stopwatch
 ストライキ: strike (i.e. industrial action)
@@ -1184,29 +1007,21 @@
 ストリート: street
 ストリップ: strip show
 ストレート: straightforward
-ストレート: (four-seam) fastball
-ストレート: straight (boxing punch)
 ストレス: stress
 ストロー: drinking straw
-ストロー: straw
 ストロベリー: strawberry
 ストロボ: stroboscope
 ストロンチウム: strontium (Sr)
 スナック: snack
-スナック: snack bar (usu. an establishment that serves alcohol)
-スナック: snack food (esp. potato chips, popcorn, etc.)
 スナップ: snapshot
-スナップ: snap fastener
 スノー: snow
 スノーボート: (plastic) toboggan
 スパート: spurt
 スパイ: spy
 スパイク: spike (on a shoe or tyre)
-スパイク: spiked shoes
 スパイス: spice
 スパゲティ: spaghetti
 スパッツ: leggings (stretchy skin-tight trousers)
-スパッツ: gaiters
 スパン: span
 スピーカー: speaker
 スピーチ: speech
@@ -1228,18 +1043,13 @@
 スポーツカー: sports car
 スポーツマン: sportsman
 スポット: place
-スポット: spot advertisement
-スポット: spot news
-スポット: spotlight
 スポンサー: sponsor
 スポンジ: sponge
 スマート: slim
 スムーズ: smooth
 スモッグ: smog
 スライス: slice
-スライス: slice
 スライド: (microscope) slide
-スライド: to change (with a sliding scale)
 スラックス: slacks
 スラローム: slalom
 スランプ: slump
@@ -1253,23 +1063,18 @@
 スルー: ignoring
 スレート: slate
 スレイブ: slave (device)
-スレイブ: slave (person)
 スロー: slow motion
 スローガン: slogan
 スロープ: slope
 スロット: slot
-スロット: slot machine
 スワン: swan
 ズボン: trousers
 セーター: sweater
 セーフ: safe
-セーフ: in (of a ball, in tennis, etc.)
-セーフ: all right
 セーフティードライブ: driving safely
 セーブ: save
 セール: sale
 セールス: sales
-セールス: salesman
 セールスマン: salesman
 セキュリティ: security
 セキュリティー: security
@@ -1280,17 +1085,12 @@
 セゾン: season
 セックス: sex
 セッション: session
-セッション: jam session
 セッティング: setting
 セット: set (of things)
-セット: setting up
-セット: setting (hair)
-セット: set (in a play, film, etc.)
 セミナー: seminar
 ゼミナール: seminar
 セメント: cement
 セル: serge
-セル: cel (celluloid)
 セルフ: self-service
 セルフサービス: self-service
 セレナーデ: serenade
@@ -1300,7 +1100,6 @@
 センセーション: sensation
 センター: centre
 センチ: centimeter
-センチ: sentimental
 センチメンタル: sentimental
 セント: cent (monetary unit)
 ゼネコン: general contractor
@@ -1308,21 +1107,14 @@
 ゼミ: seminar
 ゼリー: jello
 ソース: sauce
-ソース: Worcestershire sauce
 ソーセージ: sausage
 ソープ: soapland
 ソープランド: soapland
 ソックス: socks
 ソナタ: sonata
 ソビエト: soviet
-ソビエト: Soviet Union
-ソビエト: ∅
 ソファ: sofa
 ソフト: soft
-ソフト: software
-ソフト: soft hat
-ソフト: soft serve ice cream
-ソフト: softball
 ソフトウェア: software
 ソフトウエア: software
 ソプラノ: soprano
@@ -1334,18 +1126,13 @@
 タール: tar
 タイアップ: tie-in
 タイト: tight
-タイト: tight skirt
 タイトル: title
 タイピスト: typist
 タイプ: type
-タイプ: type (of person)
-タイプ: typewriter
-タイプ: typing
 タイプライター: typewriter
 タイマー: timer
 タイミング: timing
 タイム: time
-タイム: time out (e.g. in sport)
 タイムスタンプ: time-stamping machine
 タイムズ: times
 タイムマシン: time machine
@@ -1356,23 +1143,17 @@
 タキシード: tuxedo
 タクシー: taxi
 タグ: tag
-タグ: tag-team match
-タグ: working together as a team
 タッチ: touch
-タッチ: being involved in
 タップ: tap dance
 タフ: tough
 タブー: taboo
 タレント: (TV or radio) entertainer
-タレント: talent (ancient unit of weight and currency)
 タワー: tower
 タンカー: tanker
 タンク: tank (of fluid)
-タンク: tank (military vehicle)
 タンクローリ: tanker
 ダーリン: darling
 ダイエット: diet
-ダイエット: losing weight (through dieting, exercise, etc.)
 ダイジェスト: digest
 ダイナマイト: dynamite
 ダイビング: diving
@@ -1381,18 +1162,10 @@
 ダイヤル: dial (e.g. telephone, radio, clock, gauge)
 ダイレクト: direct
 ダウン: fall
-ダウン: being out of action (due to illness, exhaustion, etc.)
-ダウン: going down (of a computer system, server, etc.)
-ダウン: being down (in points, games, etc.)
 ダウンタウン: downtown
 ダッチワイフ: life-sized doll used for masturbation
 ダビング: dubbing
 ダブル: double
-ダブル: double bed
-ダブル: double-breasted
-ダブル: double width (of cloth; usu. 1.42 meters)
-ダブル: doubles (e.g. in tennis)
-ダブル: biracial person (esp. half-Japanese)
 ダム: dam
 ダメージ: damage
 ダライラマ: ∅
@@ -1401,11 +1174,9 @@
 ダンプ: dump truck
 ダンプカー: dump truck
 チーズ: cheese
-チーズ: cheese (said when taking a photograph)
 チーム: team
 チームワーク: teamwork
 チア: cheer
-チア: cheerleading
 チアガール: cheerleader
 チェ: tsk
 チェーン: chain (bicycle, measuring, tire, etc.)
@@ -1422,14 +1193,11 @@
 チケット: ticket
 チタン: titanium (Ti)
 チップ: tip
-チップ: foul tip
 チフス: typhoid fever
-チフス: ∅
 チベット: Tibet
 チャーター: charter
 チャーミング: charming
 チャイナ: China
-チャイナ: china
 チャイム: chime
 チャック: zip fastener
 チャネル: channel
@@ -1463,18 +1231,12 @@
 テキ: beefsteak
 テキサス: Texas
 テキスト: text
-テキスト: textbook
 テク: technology
-テク: technique
-テク: technical
 テクニカル: technical
 テクニック: technique
 テクノロジー: technology
 テスト: examination
-テスト: test
 テックス: soft fiberboard
-テックス: cloth
-テックス: tex
 テニス: tennis
 テニスコート: tennis court
 テネシー: Tennessee
@@ -1522,16 +1284,13 @@
 デッド: dead (sound, room)
 デッドヒート: fiercely fought contest
 デパート: department store
-デパート: department
 デビュー: debut
 デフォルメ: distortion (often used for caricature in manga, etc.)
 デフレ: deflation
 デマ: false rumor (rumour)
 デメリット: disadvantage
 デモ: demonstration
-デモ: (giving a) demo
 デモンストレーション: demonstration
-デモンストレーション: (giving a) demo
 デュオ: duo
 デリカ: delicatessen
 デリケート: delicate (issue, problem, etc.)
@@ -1545,9 +1304,6 @@
 トス: (coin) toss
 トタン: corrugated iron
 トップ: top
-トップ: top position
-トップ: senior management
-トップ: home page (of a website)
 トップバッター: leadoff batter
 トトカルチョ: football pool
 トピック: topic
@@ -1561,7 +1317,6 @@
 トラブル: trouble
 トラベラーズチェック: traveller's cheque
 トランク: suitcase
-トランク: trunk (of a car)
 トランジスタ: electrical transistor
 トランス: transformer
 トランプ: (Western) playing cards
@@ -1571,14 +1326,11 @@
 トリップ: tripcode
 トリュフ: truffle
 トルコ: Turkey
-トルコ: turquoise
 トレー: tray
 トレード: trade
 トレードマーク: trademark
 トレーナー: trainer (someone who works with sports athletes)
-トレーナー: sweatshirt
 トレーニング: training (for a skill, job, sport, etc.)
-トレーニング: working out
 トレーラー: trailer (vehicle)
 トレンド: trend
 トロイ: troy
@@ -1594,29 +1346,20 @@
 ドキュメント: documentation
 ドクター: doctor
 ドック: dock
-ドック: thorough physical examination
 ドミノ: domino effect
 ドライ: dry
-ドライ: dry (tone, humour, etc.)
-ドライ: dry (of alcohol)
 ドライバー: driver (of a vehicle)
-ドライバー: screwdriver
 ドライフラワー: dried flowers
 ドライブ: drive
-ドライブ: to (go for a) drive
-ドライブ: to drive (e.g. a car)
-ドライブ: to drive (innovation, change, etc.)
 ドライヤー: dryer (esp. hair)
 ドラゴン: dragon (as depicted in Western myths)
 ドラフト: draft (esp. in baseball)
 ドラマ: (non-documentary) television series
-ドラマ: drama
 ドラム: drum
 ドリアン: durian (fruit)
 ドリンク: drink
 ドル: dollar
 ドレス: dress
-ドレッシング: dressing
 ドレッシング: dressing
 ドロップ: drop
 ナイーブ: innocent
@@ -1627,7 +1370,6 @@
 ナイフ: knife
 ナイロン: nylon
 ナウ: trendy
-ナウ: currently at ...
 ナショナリズム: nationalism
 ナショナルリーグ: National League
 ナチ: Nazi
@@ -1635,11 +1377,9 @@
 ナチュラル: natural (sign)
 ナックル: knuckleball
 ナット: nut (as in nut and bolt)
-ナット: (edible) nut
 ナップザック: knapsack
 ナトリウム: sodium (Na)
 ナプキン: (table) napkin
-ナプキン: sanitary napkin
 ナポレオン: Napoleon
 ナンセンス: nonsense
 ナンバー: number plate
@@ -1657,25 +1397,16 @@
 ヌード: nude
 ヌーベル: mid-length novel
 ヌーボー: modern
-ヌーボー: art nouveau
-ヌーボー: Beaujolais nouveau (wine)
 ネーム: nameplate
 ネガ: negative
-ネガ: negative (e.g. thinking)
 ネガティブ: negative (e.g. thinking)
-ネガティブ: negative (electrical polarity)
 ネクタイ: tie
 ネック: neck
-ネック: bottleneck
-ネック: neckline
 ネックレス: necklace
 ネット: Internet
 ネットワーク: network
 ノータッチ: without touching
-ノータッチ: not participating in
 ノート: notebook
-ノート: note
-ノート: laptop (computer)
 ノーマーク: not covered (e.g. of a sports opponent)
 ノイズ: noise
 ノイローゼ: neurosis
@@ -1684,7 +1415,6 @@
 ノスタルジー: nostalgia
 ノック: knock
 ノブ: knob
-ノブ: doorknob
 ノミネート: nomination
 ノルディック: Nordic
 ノンストップ: nonstop
@@ -1692,8 +1422,6 @@
 ハーキュリーズ: Hercules
 ハート: heart
 ハード: hard
-ハード: hardware
-ハード: hard disk
 ハードディスク: hard-disk
 ハードボイルド: hard-boiled (person, style, etc.)
 ハードル: hurdle race
@@ -1701,13 +1429,11 @@
 ハーフタイム: half time
 ハーブ: herb
 ハープ: harp
-ハープ: harmonica
 ハーモニー: harmony
 ハーモニカ: harmonica
 ハーラーダービー: race to be the pitcher with the most wins in the season
 ハーレム: harem
 ハイ: high (spirits)
-ハイ: high
 ハイウェイ: highway
 ハイカー: hiker
 ハイキング: hiking
@@ -1721,9 +1447,6 @@
 ハイペース: quick pace
 ハイム: home
 ハウス: house
-ハウス: plastic greenhouse
-ハウス: house music
-ハウス: go to your kennel (cage, bed, etc.)!
 ハッカー: hacker
 ハッピーエンド: happy ending
 ハネムーン: honeymoon
@@ -1735,7 +1458,6 @@
 ハワイ: Hawaii
 ハンカチ: handkerchief
 ハンガー: (aircraft) hangar
-ハンガー: (coat) hanger
 ハングリー: hungry (e.g. for success)
 ハングル: hangul (Korean script)
 ハンサム: handsome
@@ -1747,14 +1469,11 @@
 ハンドバッグ: handbag
 ハンドボール: handball
 ハンドル: handle
-ハンドル: steering wheel
-ハンドル: handle
 ハンバーガー: hamburger (on a bun)
 ハンバーグ: Hamburg steak
 ハンマー: hammer
 バー: bar
 バーゲン: bargain
-バーゲン: bargain sale
 バーゲンセール: bargain sale
 バーコード: comb over (on a balding man)
 バージニア: Virginia
@@ -1775,47 +1494,35 @@
 バイオリン: violin
 ヴァイオリン: violin
 バイキング: Viking
-バイキング: smorgasbord
 バイク: motorcycle
-バイク: bicycle
 バイト: part-time job
-バイト: part-time worker
 バイブル: Bible
 バイヤー: buyer
 バウムクーヘン: baumkuchen (German spit cake)
 バウンド: bounce
 バカンス: holidays
 バギー: dune buggy
-バギー: buggy
 バクテリア: bacteria
 バグダッド: Baghdad (Iraq)
-バグダッド: ∅
 バザー: bazaar
 バザール: bazaar
 バス: bus
 バスケット: basket
-バスケット: basketball
 バスケットボール: basketball
 バスター: fake bunt
 バスト: bust (sculpture)
 バスルーム: bathroom
 バター: butter
 バタバタ: flapping
-バタバタ: commotion
 バッカス: Bacchus (Roman god)
 バック: background
-バック: backing (up)
-バック: backstroke (swimming)
-バック: backhand
 バックス: backs
-バックス: bucks
 バックスクリーン: batter's eye screen
 バックネット: backstop
 バックハンド: backhand
 バッグ: bag
 バッジ: badge
 バッティング: batting (baseball, cricket, etc.)
-バッテリー: battery
 バッテリー: battery
 バット: bat (in baseball, cricket, etc.)
 バッハ: Bach (German composer, 1685-1750)
@@ -1825,7 +1532,6 @@
 バナナ: banana
 バニラ: vanilla
 バブル: bubble
-バブル: bubble economy
 バラード: ballade (narrative poetry, musical composition)
 バラエティ: variety show
 バランス: balance
@@ -1847,7 +1553,6 @@
 バンコク: ∅
 バント: bunt
 バンド: band
-バンド: belt
 バンパー: bumper
 パー: par
 パーク: park (public, amusement, etc.)
@@ -1858,13 +1563,10 @@
 パーティー: party (social gathering)
 パーティ: party (social gathering)
 パート: part
-パート: part-timer
-パート: part-time (work)
 パートタイマー: part-timer
 パートタイム: part time (esp. female part time employees)
 パートナー: (dance) partner
 パーフェクト: perfect
-パーフェクト: perfect game
 パープレー: scoring even-par for the entire round
 パーマ: perm (hairstyle)
 パール: purl (knitting stitch)
@@ -1878,22 +1580,16 @@
 パシフィック: Pacific
 パジャマ: pajamas
 パス: passing (a test, examination, etc.)
-パス: pass (for admission, transport, etc.)
-パス: pass (of a ball)
-パス: path (file, directory, graphics)
 パスタ: pasta
 パスポート: passport
 パスワード: password
 パズル: puzzle
 パソコン: personal computer
 パターン: pattern
-パターン: behavioural pattern
 パチンコ: pachinko
 パッケージ: package
 パッション: passion
 パッシング: headlight flashing (as a signal to another driver)
-パッシング: passing shot (in tennis)
-パッシング: passing
 パット: putt
 パテ: putty
 パトカー: patrol car
@@ -1910,7 +1606,6 @@
 パラダイス: paradise
 パラダイム: paradigm
 パラボラ: parabola (antenna, microphone reflector, etc.)
-パラボラ: parabola (planar curve)
 パラボラアンテナ: parabolic antenna
 パリ: Paris (France)
 パルチザン: partisan
@@ -1936,10 +1631,8 @@
 ヒール: heel (in pro wrestling)
 ヒーロー: hero
 ヒヤリング: listening (esp. in foreign language education)
-ヒヤリング: (public) hearing
 ヒステリー: hysteria
 ヒット: hit
-ヒット: hit (i.e. a successful match in a search)
 ヒマラヤ: Himalayas
 ヒューズ: fuse
 ヒレ: fillet
@@ -1948,16 +1641,11 @@
 ヒント: hint
 ビーチ: beach
 ビート: beet
-ビート: beat
 ビートルズ: Beatles
 ビーナス: Venus (Roman goddess)
-ビーナス: Venus (planet)
 ヴィーナス: Venus (Roman goddess)
-ヴィーナス: Venus (planet)
 ビーバー: beaver
-ビーバー: viva
 ビバ: beaver
-ビバ: viva
 ビーフ: beef
 ビアガーデン: beer garden
 ビエンナーレ: biennale (biennial art exhibition)
@@ -1983,7 +1671,6 @@
 ビリヤード: billiards
 ビル: multi-floor building
 ビロード: velvet
-ビロード: 〈天鵞絨〉
 ピーク: peak
 ピース: peace sign
 ピーチ: peach
@@ -1997,7 +1684,6 @@
 ピエロ: clown
 ピカソ: Picasso
 デイ: day (as in holiday)
-デイ: daytime
 バチカン: ∅
 ピクニック: picnic
 ピケ: pique
@@ -2007,8 +1693,6 @@
 ピストン: piston
 ピッキング: lock picking
 ピック: pick
-ピック: ice pick
-ピック: pickaxe
 ピッチ: PHS portable phone
 ピッチャー: pitcher
 ピッチング: pitching
@@ -2026,14 +1710,9 @@
 ピンポン: ping-pong
 フーガ: fugue
 ファースト: first
-ファースト: first base
-ファースト: fast
 ファイア: fire
 ファイト: fight
-ファイト: fighting spirit
 ファイル: file (for holding papers)
-ファイル: file (collection of documents)
-ファイル: file
 ファインダー: viewfinder
 ファウル: foul
 ファクシミリ: fax
@@ -2045,8 +1724,6 @@
 ファッション: fashion
 ファミリー: family
 ファルス: farce (e.g. theatrical)
-ファルス: phallus
-ファルス: farce
 ファン: fan
 フィート: feet
 フィーリング: feeling
@@ -2065,13 +1742,10 @@
 フェスティバル: festival (esp. music, film, etc.)
 フェニックス: phoenix (bird of Egyptian mythology)
 フェミニスト: feminist
-フェミニスト: man who indulges women
 フェリー: ferry
 フェンス: fence
 フォーク: fork
-フォーク: forkball
 ホーク: fork
-ホーク: forkball
 フォークソング: folk song
 フォード: Ford (car)
 フォーマット: formatting (a disk)
@@ -2080,7 +1754,6 @@
 フォアハンド: forehand
 フォアボール: base on balls
 フォロー: follow-up
-フォロー: backing-up
 フォワード: forward
 フック: hook
 フットボール: football (incl. soccer, rugby, American football, etc.; esp. used for soccer)
@@ -2093,27 +1766,21 @@
 フラスコ: (laboratory) flask
 フラストレーション: frustration
 フラッシュ: flash (esp. of a camera)
-フラッシュ: newsflash
 フラメンコ: flamenco
 フラン: franc (currency)
 フランク: frankfurter
 フランクフルト: Frankfurt (Germany)
-フランクフルト: frankfurter
 フリー: freelance
-フリー: one-size
 フリーエージェント: free agent
 フリーズ: freezing
 フリーター: (young) person subsisting on part-time work
 フリーダイヤル: toll-free number
-フリーダイヤル: free dial (e.g. device or combination lock that can be set to any number)
 フリーマーケット: flea market
-フリーマーケット: free market
 フリーランサー: freelancer
 フル: full
 フルーツ: fruit
 フルート: flute
 フレーズ: phrase
-フレーズ: strawberry
 フレーム: frame
 フレックス: flexible-hours system
 フレッシュ: (liquid) non-dairy creamer
@@ -2123,16 +1790,13 @@
 フロア: dance floor
 フロスト: frost
 フロッピー: floppy (disk)
-フロッピー: floppy
 フロッピーディスク: floppy disk
 フロン: fluorocarbon
 フロント: front (aspect, weather, war-front, etc.)
-フロント: reception (e.g. in a hotel)
 ブーケ: bouquet
 ブーツ: boots
 ブーム: boom
 ブーメラン: boomerang
-ブーメラン: swim briefs
 ブール: boule (round loaf of white bread)
 ブイ: buoy
 ブザー: buzzer
@@ -2148,11 +1812,7 @@
 ブリッジ: bridge
 ブリュッセル: Brussels (Belgium)
 ブル: bull
-ブル: bull
-ブル: bulldog
-ブル: bulldozer
 ブルー: blue
-ブルー: sad
 ブルーカラー: blue-collar (worker)
 ブルース: blues
 ブルガリア: Bulgaria
@@ -2166,12 +1826,9 @@
 ブレーキ: brake
 ブレーン: brains (of an operation)
 ブレイク: break (rest)
-ブレイク: becoming popular
 ブレーク: break (rest)
-ブレーク: becoming popular
 ブレザー: blazer
 ブレスト: breaststroke
-ブレスト: brainstorming
 ブレスレット: bracelet
 プレゼンテーション: presentation
 ブレッド: bread
@@ -2181,7 +1838,6 @@
 ブローチ: brooch
 ブロード: broadcloth
 ブロック: blocking (e.g. the way)
-ブロック: block (lump of something (usu. square), area of town, etc.)
 ブロンズ: bronze
 ブンド: bond
 プール: (swimming) pool
@@ -2192,7 +1848,6 @@
 プライベート: private
 プラザ: plaza
 プラス: plus
-プラス: advantage
 プラスチック: plastic
 プラチナ: platinum (Pt)
 プラットホーム: platform
@@ -2206,9 +1861,7 @@
 プリンタ: printer
 プリント: print
 プレイ: play
-プレイ: play ball
 プレー: play
-プレー: play ball
 プレート: (tectonic) plate
 プレーヤー: player
 プレーン: plain
@@ -2220,8 +1873,6 @@
 プレハブ: prefab
 プロ: professional
 プログラム: program (of events, music, etc.)
-プログラム: program (booklet)
-プログラム: (computer) program
 プロジェクト: project
 プロセス: process
 プロダクション: production
@@ -2266,11 +1917,8 @@
 ベビーカー: stroller
 ベビーシッター: baby-sitter
 ベランダ: balcony
-ベランダ: veranda
 ベル: bell
-ベル: bel
 ベルト: belt (waist, seat, etc.)
-ベルト: drive belt
 ベルマーク: Bellmark
 ベルモット: vermouth
 ベレー: beret
@@ -2278,7 +1926,6 @@
 ベンチ: bench
 ベンチャー: venture
 頁: page
-頁: nth page
 ペース: pace
 ペーパー: paper
 ペアリング: couple's ring
@@ -2313,19 +1960,12 @@
 ホテル: hotel
 ホノルル: Honolulu
 ホモ: homo
-ホモ: homozygote
-ホモ: homogenization
-ホモ: Homo (genus of primates incl. modern humans)
 ホラー: horror
 ホルモン: hormone
-ホルモン: cows' or pigs' offal (entrails)
 ホルン: horn (musical instrument)
 ホワイト: white
-ホワイト: correction fluid
 ホワイトカラー: white-collar (worker)
 ボー: bow (weapon)
-ボー: bow
-ボー: bow tie
 ボーイ: bellboy
 ボーイスカウト: Boy Scouts
 ボーイフレンド: boyfriend
@@ -2335,8 +1975,6 @@
 ボーナス: bonus
 ボーリング: bowling (esp. tenpin)
 ボール: ball (pitch that falls outside of the strike zone)
-ボール: bowl
-ボール: board (cardboard, pasteboard, etc.)
 ボールペン: ball-point pen
 ボイコット: boycott
 ボイスレコーダー: dictaphone
@@ -2348,39 +1986,30 @@
 ボストン: Boston
 ボスニア: Bosnia
 ボタン: button (clothing)
-ボタン: push-button
 ボックス: box
 ボディー: body
-ボディー: body blow (in boxing)
 ボディ: body
-ボディ: body blow (in boxing)
 ボディコン: body-conscious (look)
 ボトル: bottle
 ボランティア: volunteer
 ボリューム: volume (sound level)
-ボリューム: volume
 ボレー: volley
 ボレロ: bolero (dance)
-ボレロ: bolero (clothing)
 ボン: good
 ボンネット: bonnet
 ボンベ: compressed gas cylinder
 ポーカー: poker
 ポーズ: pose
-ポーズ: pause
 ポース: pose
-ポース: pause
 ポーター: porter
 ポーチ: porch
 ポート: port
 ポール: pole
 ポイント: point (of a story, argument, etc.)
-ポイント: point (e.g. in stock exchange movement)
 ポケット: pocket
 ポケットベル: pager
 ポジション: position
 ポジティブ: positive (e.g. thinking)
-ポジティブ: positive (electrical polarity)
 ポスター: poster
 ポスト: postbox
 ポタージュ: potage (thick soup)
@@ -2388,52 +2017,37 @@
 ポップ: pop
 ポップス: pop music
 ポテト: potato
-ポテト: French fries
-ポテト: sweet potato
 ポテトチップス: potato chips
 ポトフ: pot-au-feu
 ポニーテール: ponytail
 ポピュラー: popular
-ポピュラー: popular music
 ポプリ: potpourri
-ポリープ: polyp
 ポリープ: polyp
 ポリシー: policy
 ポリス: polis (ancient Greek city state)
-ポリス: -city
 ポルノ: pornography
 ポロ: polo
 ポンド: pound (unit of weight)
-ポンド: pound (currency)
 ポンプ: pump
 マーカー: marker
 マーカ: marker
 マーガリン: margarine
 マーキュリー: Mercury (Roman god)
-マーキュリー: Mercury (planet)
-マーキュリー: mercury (Hg)
 マーク: mark
-マーク: trademark
 マークシート: computer-scored answer sheet
 マーケット: market
 マーケティング: marketing
 マーチ: march
-マーチ: March
 マーティーニ: martini
 マイ: my
 マイアミ: Miami
 マイカー: one's own car
 マイク: mike
 マイクロ: micro-
-マイクロ: minibus
-マイクロ: microfilm
 マイクロバス: minibus
 マイコン: microcomputer
 マイナー: minor
-マイナー: the minor leagues (US baseball)
 マイナス: minus
-マイナス: negative (number)
-マイナス: disadvantage
 マイノリティー: minority
 マイペース: doing things at one's own pace (e.g. slower than others)
 マイホーム: one's (own) house
@@ -2441,56 +2055,43 @@
 マイル: mile
 マイルド: mild
 マウス: mouse (esp. laboratory)
-マウス: mouth
 マウンテン: mountain
 マウント: mounting (e.g. a drive)
-マウント: asserting dominance
 マエストロ: maestro
 マガジン: magazine
 マキシ: ankle-length (clothes)
-マキシ: maxim
 マクラメ: macramé
 マクロ: macro
 マグニチュード: magnitude
 マグネシウム: magnesium (Mg)
 マザコン: being a mama's boy
-マザコン: Oedipus complex
 マシン: machine
 マシーン: machine
 マジシャン: magician
 マジック: magic
-マジック: Magic Marker
-マジック: magic number
 マス: mass
-マス: masturbation
 マスク: (face) mask
 マスゲーム: massed calisthenics
 マスコット: mascot
 マスコミ: mass communication
 マスター: to master (a skill)
-マスター: master (device)
 マスタード: mustard
 マスト: mast (of ship)
 マスメディア: mass media
 マゾ: masochist
-マゾ: masochism
 マダム: madam
 マッキントッシュ: McIntosh (apple)
 マック: McDonald's (fast food restaurant)
-マック: Mac (personal computer)
 マックス: maximum
-マックス: mux (multiplexor)
 マッチ: match (for lighting a fire)
 マット: mat
 マッハ: Mach (number)
-マッハ: (at a) fast speed
 マドレーヌ: madeleine (cake)
 マドンナ: madonna
 マナー: manners
 マニア: enthusiast
 マニアック: maniac (as in rabid sport fan)
 マニキュア: manicure
-マニキュア: nail polish
 マニュアル: (instruction) manual
 マネー: money
 マネジメント: management
@@ -2513,13 +2114,10 @@
 マルク: mark (currency)
 マルターゼ: maltase
 マルチ: multi-post
-マルチ: multilevel marketing system
-マルチ: mulch
 マレーシア: Malaysia
 マロン: chestnut
 マンガン: manganese (Mn)
 マンゴー: mango (Mangifera indica)
-マンゴー: ∅
 マンション: condominium (usu. mid or high-rise)
 マンツーマン: man-to-man
 マント: mantle
@@ -2528,8 +2126,6 @@
 マンモス: mammoth (esp. the woolly mammoth, Mammuthus primigenius)
 ミーティング: meeting
 ミール: meal (food, ground grain)
-ミール: Mir (Russian space station)
-ミール: meel
 ミイラ: mummy
 ミクロ: micro
 ミクロン: micron
@@ -2543,8 +2139,6 @@
 ミステリ: mystery
 ミズーリ: Missouri
 ミッション: mission
-ミッション: delegation
-ミッション: transmission
 ミット: mitt
 ミッドナイト: midnight
 ミディ: midi (i.e. midiskirt)
@@ -2560,53 +2154,35 @@
 ミュージック: music
 ミラクル: miracle
 ミリ: milli-
-ミリ: millimetre
 ミリオン: million seller
 ミリグラム: milligram
 ミリリットル: millilitre
 ミルク: milk
-ミルク: infant formula
-ミルク: condensed milk
 ミンク: mink
 ミンチ: minced meat
 ムース: mousse
 ムーディー: having a good atmosphere
 ムード: mood
-ムード: mood
 ムール: mussels
 ムスタング: mustang
 ムラート: mulatto
 メーカー: manufacturer (esp. a major company)
-メーカー: maker
-メーカー: person who creates things
 メーカ: manufacturer (esp. a major company)
-メーカ: maker
-メーカ: person who creates things
 メイク: make-up
 メーク: make-up
 メーター: meter
-メーター: metre (unit of length)
 メータ: meter
-メータ: metre (unit of length)
 メーデー: Mayday (call for help)
-メーデー: May Day (May 1)
 メートル: metre (unit of length)
-メートル: meter
 メード: maid
 メール: email
-メール: mail (usu. in compound words)
-メール: male
 メーン: main
-メーン: main dish
 メーンストリート: main street
 メーンバンク: (company's) main financing bank
 メカ: mechanism
-メカ: mechanic
 メカニズム: mechanism
 メカニック: mechanical
 メジャー: major
-メジャー: the Major Leagues
-メジャー: major (key, scale, etc.)
 メス: scalpel
 メゾソプラノ: mezzo-soprano
 メゾ・ソプラノ: mezzo-soprano
@@ -2617,7 +2193,6 @@
 メダル: medal
 メチール: methyl-
 メッセ: trade fair
-メッセ: instant messenger
 メッセージ: message
 メディア: media
 メトリック: metric
@@ -2645,7 +2220,6 @@
 モーツァルト: Mozart
 モード: mode
 モーニング: morning coat
-モーニング: breakfast set (often a drink and toast)
 モール: (shopping) mall
 モアレ: moire (fabric)
 モザイク: pixelated obscuring in images and video, usu. for censorship
@@ -2655,12 +2229,8 @@
 モティーフ: motif
 モデム: modem
 モデル: model
-モデル: model (profession)
-モデル: model (of a vehicle, machine, etc.)
-モデル: model (for a fictional character, place, etc.)
 モデルガン: replica firearm
 モニター: monitor (device, software or person)
-モニター: (computer) monitor
 モノクロ: monochrome
 モノラル: monaural
 モノローグ: monologue
@@ -2708,17 +2278,13 @@
 ライセンス: license
 ライター: lighter
 ライト: light
-ライト: right
 ライナー: liner
 ライバル: rival
 ライフル: rifle
 ライフワーク: lifework
 ライブ: live (broadcasting, music, etc.)
-ライブ: resonant (room, etc.)
 ライブハウス: shop, bar, etc. where live jazz, pop, rock, etc. is performed
 ライブラリー: library
-ライブラリー: book series
-ライブラリー: library (software, modules, images, etc.)
 ライン: line
 ラウンジ: lounge
 ラウンド: round (esp. in sports, negotiations, etc.)
@@ -2734,14 +2300,10 @@
 ラッキーゾーン: area between the regular outfield wall and a lower home-run fence set up at a shorter distance from home plate
 ラック: rack
 ラッシュ: rush hour
-ラッシュ: rush print (in films, anime, etc.)
-ラッシュ: lighter aboard ship
 ラッシュアワー: rush hour
 ラッセル: (Russell) snowplow
 ラップ: plastic wrap
 ラテン: Latin (language)
-ラテン: Latin-American
-ラテン: Latin (i.e. relating to the literature, culture, etc. of ancient Rome)
 ラテンアメリカ: Latin America
 ラビオリ: ravioli
 ラフ: rough sketch
@@ -2749,11 +2311,8 @@
 ラブソング: love song
 ラブレター: love letter
 ラベル: label (i.e. sticker)
-ラベル: label (i.e. record label)
 レーベル: label (i.e. sticker)
-レーベル: label (i.e. record label)
 ラボ: lab
-ラボ: language lab
 ラマ: llama (Lama glama)
 ラム: lamb
 ラメ: lamé (cloth made from gold or silver thread)
@@ -2765,28 +2324,22 @@
 ランジェリー: lingerie
 ランダム: random sampling
 ランチ: lunch
-ランチ: (Western-style) single-plate lunch set
 ランドセル: firm-sided backpack made of leather, etc. (used by Japanese elementary schoolchildren, often red for girls and black for boys)
 ランドリー: laundry
 ランナー: runner
 ランニング: running
-ランニング: tank top (worn as an undergarment or sportswear)
 ランプ: lamp
 リーク: leakage (of electricity)
 リーグ: league
 リーダー: leader
-リーダー: microreader
-リーダー: dotted line (in printing)
 リーダーシップ: leadership
 リーディング: reading
 リート: lied (German song, usually for solo voice and piano)
 リード: lead
-リード: (sales) lead
 リーマン: salary man
 リアクション: reaction
 リアル: real
 リキッド: liquid
-リキッド: liquid hair product
 リキュール: liqueur
 リクエスト: request
 リクルート: recruit
@@ -2818,10 +2371,8 @@
 リフォーム: renovation (e.g. a house)
 リフレッシュ: refresh (e.g. memory, one's spirits, etc.)
 リベート: rebate
-リベート: commission
 リボン: ribbon
 リムジン: limousine (stretched car)
-リムジン: shuttle bus (usu. to airport)
 リモコン: remote control
 リュージュ: luge
 リュックサック: rucksack
@@ -2837,7 +2388,6 @@
 リンチ: beating (inflicted as punishment)
 リンパ: lymph
 ルー: roux (mixture of butter and flour used to make sauces)
-ルー: (Japanese) curry powder
 ルージュ: rouge (esp. lip rouge)
 ルート: route
 ルール: rule
@@ -2848,9 +2398,7 @@
 ルネサンス: Renaissance
 ルネッサンス: Renaissance
 ルビー: ruby
-ルビー: ruby character
 ルビ: ruby
-ルビ: ruby character
 ルポ: reportage
 ルポルタージュ: reportage
 ルンゲ: lung
@@ -2863,23 +2411,17 @@
 レート: rate
 レーヨン: rayon
 レール: rail (track)
-レール: (curtain) rail
-レール: groundwork
 レア: rare
 レイプ: rape
 レガース: leg guards
 レギュラー: regular player (on a team)
-レギュラー: regular (gasoline)
 レクイエム: requiem
 レクリエーション: recreation
 レゲエ: reggae
 レコード: record (e.g. LP)
-レコード: record (e.g. in sports)
 レシート: receipt
 レジ: (cash) register
-レジ: checkout (counter)
 レジスター: (cash) register
-レジスター: register
 レジスタンス: resistance (movement)
 レジャー: leisure
 レス: reply (on an Internet message board, chat client, etc.)
@@ -2895,49 +2437,27 @@
 レディ: lady
 レトリック: rhetoric
 レトルト: retort
-レトルト: retort
 レトロ: retro
 レパートリー: repertoire
 レフ: reflex camera
-レフ: reflector
-レフ: lev (Bulgarian currency)
 レフェリー: referee
 レフト: left
 レプラ: leprosy
 レベル: level
 ビール: beer
-マスト: necessary
-コート: court (e.g. tennis, basketball, volleyball)
-ラム: rum
 サンド: sandwich
-ライター: writer
-クロス: cloth
-クロス: tablecloth
 カラメル: caramel (browned sugar used as flavouring)
 ロック: rock (music)
-ロック: on the rocks
 ハンデ: handicap
-モード: fashion
-キャリア: carrier
-キャリア: carrier (of a disease-causing agent)
-キャリア: carrier (wave)
 ビア: beer
 ストール: stall
-ストール: stall (of an engine)
 レバー: lever
-ピン: (a) one (on dice or Japanese playing cards)
-ピン: first
-ダイヤ: (railway) schedule
-ダイヤ: diagram
 オール: all
-オール: (pulling an) all-nighter
 インキ: ink
-ベスト: vest
 リポーター: reporter
 レポート: report
 リポート: report
 レモン: lemon
-レモン: ∅
 レンジ: microwave oven
 レンジャー: ranger
 レンズ: lens
@@ -2946,7 +2466,6 @@
 レンタルビデオ: rental video
 レントゲン: X-ray
 ロー: low
-ロー: low gear
 ローション: sexual lubricant
 ロース: sirloin
 ロースト: roast
@@ -2960,29 +2479,21 @@
 ログ: logarithm
 ロケ: location (e.g. of film shoot)
 ロケット: rocket
-ロケット: locket
 ロケハン: location scouting
 ロココ: rococo
 ロゴ: logo
 ロス: loss
-ロス: feeling of loss
-ロス: Los Angeles
 ロッカー: locker
-ロッカー: rocker
-ロック: lock
 ロックウール: rock wool
 ロックンロール: rock 'n' roll
 ロッジ: lodge
 ロッド: rod
-ロッド: fishing rod
 ロビー: lobby
 ロビイスト: lobbyist
 ロビング: lobbing (a ball)
 ロブ: lob (esp. in tennis)
 ロボット: robot
 ロマン: romance (e.g. Arthurian romances)
-ロマン: romance
-ロマン: romanticism
 ロング: long
 ロングセラー: longtime best seller
 ロングホール: par-five hole
@@ -2993,16 +2504,13 @@
 ワイド: wide
 ワイドショー: infotainment television program
 ワイヤ: wire
-ワイヤ: wire rope
 ワイア: wire
-ワイア: wire rope
 ワイヤレス: wireless microphone
 ワイルド: wild
 ワイン: wine
 ワウ: wow (audio)
 ワクチン: vaccine
 ワゴン: wagon
-ワゴン: station wagon
 ワシントン: Washington, D.C. (United States)
 ワックス: wax (for polishing)
 ワット: watt
