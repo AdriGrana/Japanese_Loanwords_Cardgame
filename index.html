@@ -220,6 +220,23 @@
         font-size: 3em;
       }
     }
+    
+    /* --- New CSS for Pitch Accent Markup --- */
+    .mora {
+      position: relative;
+      display: inline-block;
+      margin: 0 1px;
+    }
+    /* Adjusted marker: using the ¬ sign but placed closer to the mora */
+    .downstep::after {
+      content: "¬";
+      position: absolute;
+      top: -0.6em; /* Closer than before */
+      left: 80%;
+      transform: translateX(-50%);
+      font-size: 0.8em;
+      color: inherit; /* Same as the mora color */
+    }
   </style>
 </head>
 <body>
@@ -229,7 +246,7 @@
     <!-- Flashcard will be injected here -->
   </div>
   <div class="buttons">
-    <button id="reveal-btn">英訳を表示</button>
+    <button id="reveal-btn">定義を表示</button>
     <button id="new-words-btn">新しい言葉</button>
   </div>
 
@@ -262,7 +279,11 @@
           const parts = line.split(':');
           if (parts.length >= 2) {
             const japanese = parts[0].trim();
-            const english = parts.slice(1).join(':').trim();
+            let english = parts.slice(1).join(':').trim();
+            // Remove the Japanese word from the beginning of the definition if present.
+            if (english.indexOf(japanese) === 0) {
+              english = english.slice(japanese.length).trim();
+            }
             // Only include words that do not contain Kanji in the Japanese term
             if (!kanjiRegex.test(japanese)) {
               words.push({ japanese, english });
@@ -360,8 +381,53 @@
       const enlargedEnglish = document.getElementById('enlarged-english-meaning');
 
       if (!isOverlayOpen) {
-        // Populate overlay with the word details
-        enlargedJapanese.innerHTML = word.japanese;
+        // Extract the pitch accent number from the definition (if present)
+        // The definition begins with [number] (e.g. "[6]")
+        let pitchAccent = 0;
+        const pitchMatch = word.english.match(/^\[(\d+)\]/);
+        if (pitchMatch) {
+          pitchAccent = parseInt(pitchMatch[1], 10);
+        }
+
+        // Count the number of mora (using Array.from to account for Unicode)
+        const moraArray = Array.from(word.japanese);
+        const maxMora = moraArray.length;
+
+        // Determine the color using your provided logic:
+        // pitchAccent == 0: Blue (#3366CC)
+        // pitchAccent == 1: Red
+        // pitchAccent > 1: if pitchAccent equals maxMora (odaka) → Green; otherwise Orange (#ff6207)
+        let color = "#3366CC"; // for pitchAccent 0 (flat pitch)
+        if (pitchAccent === 1) {
+          color = "red";
+        } else if (pitchAccent > 1) {
+          if (pitchAccent === maxMora) {
+            color = "green";
+          } else {
+            color = "#ffd61d";
+          }
+        }
+        
+        // Build the markup for the Japanese word.
+        let markup = "";
+        if (pitchAccent > 0) {
+          moraArray.forEach((mora, i) => {
+            if (i === pitchAccent - 1) {  // note: pitchAccent is 1-indexed
+              markup += `<span class="mora downstep">${mora}</span>`;
+            } else {
+              markup += `<span class="mora">${mora}</span>`;
+            }
+          });
+        } else {
+          // No pitch drop – simply output the word
+          markup = word.japanese;
+        }
+        
+        // Set the markup and color for the enlarged Japanese word.
+        enlargedJapanese.innerHTML = markup;
+        enlargedJapanese.style.color = color;
+
+        // Show the English definition if already revealed.
         if (translationsRevealed) {
           enlargedEnglish.style.display = 'block';
           enlargedEnglish.textContent = word.english;
@@ -383,8 +449,8 @@
       }
     });
 
-    // Fetch words from words.txt and initialize the flashcard
-    fetch('words.txt')
+    // Fetch words from words_combined.txt and initialize the flashcard
+    fetch('words_combined.txt')
       .then(response => response.text())
       .then(text => {
         wordsList = parseWords(text);

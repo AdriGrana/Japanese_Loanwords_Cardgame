@@ -47,7 +47,7 @@ def has_source_language(definitions):
     return search_for_source_language(definitions)
 
 # Function to process a JSON file and extract entries
-def process_json_file(file_path):
+def process_json_file(file_path, seen_words):
     results = []
     with open(file_path, 'r', encoding='utf-8') as file:
         data = json.load(file)
@@ -67,22 +67,26 @@ def process_json_file(file_path):
             is_katakana_word = is_katakana(japanese_word)
             has_source_lang = has_source_language(english_definitions)
 
-            if has_gai_tag or is_katakana_word or has_source_lang:
+            if has_gai_tag:
                 # Extract the first valid definition
                 first_definition = extract_first_definition(english_definitions)
                 if first_definition and isinstance(first_definition, str):
                     # Filter out redundant definitions
                     if first_definition != japanese_word and "（★）" not in first_definition:
-                        results.append(f"{japanese_word}: {first_definition}")
+                        # Deduplication: only add if the word has not been seen
+                        if japanese_word not in seen_words:
+                            results.append(f"{japanese_word}: {first_definition}")
+                            seen_words.add(japanese_word)
         return results
 
 # Main function to process all JSON files in a folder
 def process_folder(folder_path, output_file):
     all_results = []
+    seen_words = set()  # Track seen Katakana words
     for filename in os.listdir(folder_path):
         if filename.endswith(".json"):
             file_path = os.path.join(folder_path, filename)
-            all_results.extend(process_json_file(file_path))
+            all_results.extend(process_json_file(file_path, seen_words))
     
     # Write the results to a text file
     with open(output_file, 'w', encoding='utf-8') as out_file:
