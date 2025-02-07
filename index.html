@@ -1,335 +1,399 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Japanese Loanwords Flashcards</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Include Google Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap" rel="stylesheet">
-    <style>
-        body {
-            font-family: 'Noto Sans JP', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-            margin: 0;
-            padding: 20px;
-            background-color: #f0f0f0;
-            overflow-x: hidden; /* Prevent horizontal scroll */
-        }
+  <meta charset="UTF-8">
+  <title>Japanese Loanwords Flashcards</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Include Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Noto Sans JP', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+      margin: 0;
+      padding: 20px;
+      background-color: #f0f0f0;
+      overflow-x: hidden; /* Prevent horizontal scroll */
+    }
 
-        h1 {
-            text-align: center;
-            color: #ff6f61;
-            font-size: 2em;
-            margin-bottom: 30px;
-            text-shadow: 1px 1px 2px #aaa;
-        }
+    h1 {
+      text-align: center;
+      color: #ff6f61;
+      font-size: 2em;
+      margin-bottom: 30px;
+      text-shadow: 1px 1px 2px #aaa;
+    }
 
-        .flashcard-container {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: space-around;
-            position: relative;
-            z-index: 1; /* Ensure flashcards are above the overlay */
-        }
+    .flashcard-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      position: relative;
+      z-index: 1; /* Ensure flashcards are above the overlay */
+    }
+    /* When only one flashcard is present, center it */
+    .flashcard-container.single {
+      justify-content: center;
+    }
 
-        .flashcard {
-            background-color: #fff;
-            width: 45%;
-            margin: 10px 0;
-            padding: 20px;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-            border-radius: 8px;
-            text-align: left;
-            transition: transform 0.3s ease, z-index 0.3s ease;
-            cursor: pointer; /* Added this line */
-        }
+    .flashcard {
+      background-color: #fff;
+      width: 45%;
+      margin: 10px 0;
+      padding: 20px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      border-radius: 8px;
+      text-align: left;
+      transition: transform 0.3s ease, z-index 0.3s ease;
+      cursor: pointer; /* Entire flashcard is clickable */
+    }
 
-        .japanese-word {
-            font-size: 1.5em;
-            margin-bottom: 10px;
-            /* Removed cursor: pointer; from here */
-            transition: font-size 0.3s ease;
-        }
+    /* Styling for the single flashcard version */
+    .flashcard.single {
+      width: 90%;
+      margin: 20px auto;
+      text-align: center;
+    }
 
-        .english-meaning {
-            font-size: 1.2em;
-            color: #555;
-            display: none;
-        }
+    .japanese-word {
+      font-size: 1.5em;
+      margin-bottom: 10px;
+      transition: font-size 0.3s ease;
+    }
+    /* Increase font size for the single flashcard */
+    .flashcard.single .japanese-word {
+      font-size: 3em;
+    }
 
-        .number {
-            font-weight: bold;
-            color: #ff6f61;
-        }
+    .english-meaning {
+      font-size: 1.2em;
+      color: #555;
+      display: none;
+    }
 
-        #reveal-btn, #new-words-btn {
-            width: 48%;
-            padding: 15px;
-            font-size: 1em;
-            background-color: #ff6f61;
-            color: #fff;
-            border: none;
-            border-radius: 8px;
-            margin-top: 20px;
-            cursor: pointer;
-            transition: opacity 0.2s ease;
-        }
+    .number {
+      font-weight: bold;
+      color: #ff6f61;
+    }
 
-        #new-words-btn {
-            background-color: #4CAF50;
-        }
+    #reveal-btn, #new-words-btn {
+      width: 48%;
+      padding: 15px;
+      font-size: 1em;
+      background-color: #ff6f61;
+      color: #fff;
+      border: none;
+      border-radius: 8px;
+      margin-top: 20px;
+      cursor: pointer;
+      transition: opacity 0.2s ease;
+    }
 
-        #reveal-btn:active, #new-words-btn:active {
-            opacity: 0.8;
-        }
+    #new-words-btn {
+      background-color: #4CAF50;
+    }
 
-        .buttons {
-            display: flex;
-            justify-content: space-between;
-        }
+    #reveal-btn:active, #new-words-btn:active {
+      opacity: 0.8;
+    }
 
-        /* Overlay for Enlarged Flashcard */
-        .overlay {
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background-color: rgba(0,0,0,0.8);
-            display: none; /* Hidden by default */
-            align-items: center;
-            justify-content: center;
-            z-index: 1000;
-        }
+    .buttons {
+      display: flex;
+      justify-content: space-between;
+    }
 
-        .overlay .enlarged-flashcard {
-            background-color: #fff;
-            padding: 40px;
-            border-radius: 10px;
-            text-align: center;
-            max-width: 90%;
-            max-height: 90%;
-            overflow: auto;
-        }
+    /* Overlay for Enlarged Flashcard */
+    .overlay {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0,0,0,0.8);
+      display: none; /* Hidden by default */
+      align-items: center;
+      justify-content: center;
+      z-index: 1000;
+    }
 
-        .overlay .enlarged-flashcard .japanese-word {
-            font-size: 3em;
-            margin-bottom: 20px;
-        }
+    .overlay .enlarged-flashcard {
+      background-color: #fff;
+      padding: 40px;
+      border-radius: 10px;
+      text-align: center;
+      max-width: 90%;
+      max-height: 90%;
+      overflow: auto;
+    }
 
-        .overlay .enlarged-flashcard .english-meaning {
-            font-size: 2em;
-            color: #555;
-            display: none; /* Hidden by default */
-        }
+    .overlay .enlarged-flashcard .japanese-word {
+      font-size: 3em;
+      margin-bottom: 20px;
+    }
 
-        /* Responsive Styles for Smartphones */
-        @media screen and (max-width: 600px) {
-            body {
-                padding: 10px;
-            }
+    .overlay .enlarged-flashcard .english-meaning {
+      font-size: 2em;
+      color: #555;
+      display: none; /* Hidden by default */
+    }
 
-            h1 {
-                font-size: 1.5em;
-                margin-bottom: 20px;
-            }
+    /* Timer Overlay Styles */
+    #timer-overlay {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0,0,0,0.8);
+      display: none; /* Hidden by default */
+      align-items: center;
+      justify-content: center;
+      z-index: 1100;
+    }
+    #timer-overlay #timer-display {
+      color: #fff;
+      font-size: 5em;
+      font-weight: bold;
+    }
 
-            .flashcard-container {
-                flex-direction: column;
-                align-items: center;
-            }
+    /* Responsive Styles for Smartphones */
+    @media screen and (max-width: 600px) {
+      body {
+        padding: 10px;
+      }
 
-            .flashcard {
-                width: 100%;
-                margin: 5px 0;
-                padding: 10px;
-            }
+      h1 {
+        font-size: 1.5em;
+        margin-bottom: 20px;
+      }
 
-            .japanese-word {
-                font-size: 1.2em;
-                margin-bottom: 5px;
-            }
+      .flashcard-container {
+        flex-direction: column;
+        align-items: center;
+      }
 
-            .english-meaning {
-                font-size: 1em;
-            }
+      .flashcard {
+        width: 100%;
+        margin: 5px 0;
+        padding: 10px;
+      }
 
-            .number {
-                font-size: 1.2em;
-            }
+      .japanese-word {
+        font-size: 1.2em;
+        margin-bottom: 5px;
+      }
 
-            #reveal-btn, #new-words-btn {
-                width: 100%;
-                padding: 10px;
-                font-size: 0.9em;
-                margin-top: 10px;
-            }
+      .english-meaning {
+        font-size: 1em;
+      }
 
-            .buttons {
-                flex-direction: column;
-                align-items: stretch;
-            }
+      .number {
+        font-size: 1.2em;
+      }
 
-            .buttons button + button {
-                margin-top: 10px;
-            }
+      #reveal-btn, #new-words-btn {
+        width: 100%;
+        padding: 10px;
+        font-size: 0.9em;
+        margin-top: 10px;
+      }
 
-            /* Adjust overlay flashcard for mobile */
-            .overlay .enlarged-flashcard .japanese-word {
-                font-size: 2em;
-            }
+      .buttons {
+        flex-direction: column;
+        align-items: stretch;
+      }
 
-            .overlay .enlarged-flashcard .english-meaning {
-                font-size: 1.5em;
-            }
-        }
-    </style>
+      .buttons button + button {
+        margin-top: 10px;
+      }
+
+      /* Adjust overlay flashcard for mobile */
+      .overlay .enlarged-flashcard .japanese-word {
+        font-size: 2em;
+      }
+
+      .overlay .enlarged-flashcard .english-meaning {
+        font-size: 1.5em;
+      }
+      
+      /* Adjust timer display for mobile */
+      #timer-overlay #timer-display {
+        font-size: 3em;
+      }
+    }
+  </style>
 </head>
 <body>
 
-    <h1>外来語ゲーム</h1>
-    <div class="flashcard-container" id="flashcard-container">
-        <!-- Flashcards will be injected here -->
+  <h1>ボブジテンV2</h1>
+  <div class="flashcard-container" id="flashcard-container">
+    <!-- Flashcard will be injected here -->
+  </div>
+  <div class="buttons">
+    <button id="reveal-btn">英訳を表示</button>
+    <button id="new-words-btn">新しい言葉</button>
+  </div>
+
+  <!-- Overlay for Enlarged Flashcard -->
+  <div class="overlay" id="overlay">
+    <div class="enlarged-flashcard" id="enlarged-flashcard">
+      <div class="japanese-word" id="enlarged-japanese-word"></div>
+      <div class="english-meaning" id="enlarged-english-meaning"></div>
     </div>
-    <div class="buttons">
-        <button id="reveal-btn">英訳を表示</button>
-        <button id="new-words-btn">新しい言葉</button>
-    </div>
+  </div>
+  
+  <!-- Timer Overlay -->
+  <div id="timer-overlay">
+    <div id="timer-display"></div>
+  </div>
 
-    <!-- Overlay for Enlarged Flashcard -->
-    <div class="overlay" id="overlay">
-        <div class="enlarged-flashcard" id="enlarged-flashcard">
-            <div class="japanese-word" id="enlarged-japanese-word"></div>
-            <div class="english-meaning" id="enlarged-english-meaning"></div>
-        </div>
-    </div>
+  <script>
+    let wordsList = [];
+    let isOverlayOpen = false;
+    let translationsRevealed = false; // Global flag for translation reveal
 
-    <script>
-        let wordsList = [];
-        let isOverlayOpen = false;
-        let translationsRevealed = false; // Added global variable
+    function parseWords(text) {
+      const lines = text.split('\n');
+      const words = [];
+      const kanjiRegex = /[\u4E00-\u9FAF\u3400-\u4DBF\uF900-\uFAFF]/;
 
-        function parseWords(text) {
-            const lines = text.split('\n');
-            const words = [];
-
-            const kanjiRegex = /[\u4E00-\u9FAF\u3400-\u4DBF\uF900-\uFAFF]/;
-
-            lines.forEach(line => {
-                line = line.trim();
-                if (line && !line.startsWith('#')) {
-                    const parts = line.split(':');
-                    if (parts.length >= 2) {
-                        const japanese = parts[0].trim();
-                        const english = parts.slice(1).join(':').trim();
-                        // Check if the Japanese term contains any kanji
-                        if (!kanjiRegex.test(japanese)) {
-                            words.push({ japanese, english });
-                        }
-                    }
-                }
-            });
-
-            return words;
-        }
-
-        function getRandomWords(num) {
-            const shuffled = wordsList.sort(() => 0.5 - Math.random());
-            return shuffled.slice(0, num);
-        }
-
-        function createFlashcards() {
-            const flashcardContainer = document.getElementById('flashcard-container');
-            flashcardContainer.innerHTML = ''; // Clear previous flashcards
-            const randomWords = getRandomWords(6);
-
-            randomWords.forEach((word, index) => {
-                const card = document.createElement('div');
-                card.className = 'flashcard';
-
-                const japaneseDiv = document.createElement('div');
-                japaneseDiv.className = 'japanese-word';
-                japaneseDiv.innerHTML = `<span class="number">${index + 1}:</span> ${word.japanese}`; // Number stands out
-
-                const englishDiv = document.createElement('div');
-                englishDiv.className = 'english-meaning';
-                englishDiv.textContent = word.english;
-
-                // Add click event to the entire flashcard
-                card.addEventListener('click', () => {
-                    toggleEnlargedView(word, index); // Pass index here
-                });
-
-                // Remove cursor pointer from japaneseDiv since card is clickable
-                // japaneseDiv.style.cursor = 'default';
-
-                card.appendChild(japaneseDiv);
-                card.appendChild(englishDiv);
-                flashcardContainer.appendChild(card);
-            });
-        }
-
-        document.getElementById('reveal-btn').addEventListener('click', () => {
-            const meanings = document.querySelectorAll('.english-meaning');
-            meanings.forEach(meaning => {
-                meaning.style.display = 'block';
-            });
-            translationsRevealed = true; // Set to true when revealed
-        });
-
-        document.getElementById('new-words-btn').addEventListener('click', () => {
-            const meanings = document.querySelectorAll('.english-meaning');
-            meanings.forEach(meaning => {
-                meaning.style.display = 'none';
-            });
-            translationsRevealed = false; // Reset to false for new words
-            createFlashcards();
-        });
-
-        // Function to toggle enlarged view
-        function toggleEnlargedView(word, index) {
-            const overlay = document.getElementById('overlay');
-            const enlargedJapanese = document.getElementById('enlarged-japanese-word');
-            const enlargedEnglish = document.getElementById('enlarged-english-meaning');
-
-            if (!isOverlayOpen) {
-                // Populate overlay with word details
-                enlargedJapanese.innerHTML = `<span class="number">${index + 1}:</span> ${word.japanese}`;
-                
-                if (translationsRevealed) {
-                    enlargedEnglish.style.display = 'block';
-                    enlargedEnglish.textContent = word.english;
-                } else {
-                    enlargedEnglish.style.display = 'none';
-                }
-
-                // Show overlay
-                overlay.style.display = 'flex';
-                isOverlayOpen = true;
-            } else {
-                // Hide overlay
-                overlay.style.display = 'none';
-                isOverlayOpen = false;
+      lines.forEach(line => {
+        line = line.trim();
+        if (line && !line.startsWith('#')) {
+          const parts = line.split(':');
+          if (parts.length >= 2) {
+            const japanese = parts[0].trim();
+            const english = parts.slice(1).join(':').trim();
+            // Only include words that do not contain Kanji in the Japanese term
+            if (!kanjiRegex.test(japanese)) {
+              words.push({ japanese, english });
             }
+          }
         }
+      });
+      return words;
+    }
 
-        // Close overlay when clicking outside the enlarged flashcard
-        document.getElementById('overlay').addEventListener('click', (e) => {
-            if (e.target === e.currentTarget) {
-                toggleEnlargedView(); // Close the overlay
-            }
+    // Shuffle and return a slice of the words list
+    function getRandomWords(num) {
+      const shuffled = wordsList.sort(() => 0.5 - Math.random());
+      return shuffled.slice(0, num);
+    }
+
+    function createFlashcards() {
+      const flashcardContainer = document.getElementById('flashcard-container');
+      flashcardContainer.innerHTML = ''; // Clear previous flashcards
+      const randomWords = getRandomWords(1); // Now only 1 word is chosen
+
+      // Add a "single" class to the container for styling
+      flashcardContainer.classList.add('single');
+
+      randomWords.forEach((word, index) => {
+        const card = document.createElement('div');
+        card.className = 'flashcard';
+        // Add a "single" class so that we can enlarge its font and center it
+        card.classList.add('single');
+
+        const japaneseDiv = document.createElement('div');
+        japaneseDiv.className = 'japanese-word';
+        // For a single word, no numbering is needed.
+        japaneseDiv.innerHTML = word.japanese;
+
+        const englishDiv = document.createElement('div');
+        englishDiv.className = 'english-meaning';
+        englishDiv.textContent = word.english;
+
+        // Clicking the flashcard toggles the enlarged view overlay.
+        card.addEventListener('click', () => {
+          toggleEnlargedView(word, index);
         });
 
-        // Fetch words from words.txt
-        fetch('words.txt')
-            .then(response => response.text())
-            .then(text => {
-                wordsList = parseWords(text);
-                createFlashcards();
-            })
-            .catch(error => {
-                console.error('Error fetching words.txt:', error);
-            });
-    </script>
+        card.appendChild(japaneseDiv);
+        card.appendChild(englishDiv);
+        flashcardContainer.appendChild(card);
+      });
+    }
+
+    document.getElementById('reveal-btn').addEventListener('click', () => {
+      const meanings = document.querySelectorAll('.english-meaning');
+      meanings.forEach(meaning => {
+        meaning.style.display = 'block';
+      });
+      translationsRevealed = true; // Mark that translations are revealed
+    });
+
+    document.getElementById('new-words-btn').addEventListener('click', () => {
+      // Hide translations and reset flag
+      const meanings = document.querySelectorAll('.english-meaning');
+      meanings.forEach(meaning => {
+        meaning.style.display = 'none';
+      });
+      translationsRevealed = false;
+      
+      // Start the countdown before switching to new words
+      startCountdown();
+    });
+
+    // Function to start the countdown timer overlay
+    function startCountdown() {
+      const timerOverlay = document.getElementById('timer-overlay');
+      const timerDisplay = document.getElementById('timer-display');
+      let countdown = 3;
+      timerOverlay.style.display = 'flex';
+      timerDisplay.textContent = countdown;
+      
+      const intervalId = setInterval(() => {
+        countdown--;
+        if (countdown > 0) {
+          timerDisplay.textContent = countdown;
+        } else {
+          clearInterval(intervalId);
+          timerOverlay.style.display = 'none';
+          createFlashcards();
+        }
+      }, 1000);
+    }
+
+    // Function to toggle the overlay for the enlarged flashcard view.
+    function toggleEnlargedView(word, index) {
+      const overlay = document.getElementById('overlay');
+      const enlargedJapanese = document.getElementById('enlarged-japanese-word');
+      const enlargedEnglish = document.getElementById('enlarged-english-meaning');
+
+      if (!isOverlayOpen) {
+        // Populate overlay with the word details
+        enlargedJapanese.innerHTML = word.japanese;
+        if (translationsRevealed) {
+          enlargedEnglish.style.display = 'block';
+          enlargedEnglish.textContent = word.english;
+        } else {
+          enlargedEnglish.style.display = 'none';
+        }
+        overlay.style.display = 'flex';
+        isOverlayOpen = true;
+      } else {
+        overlay.style.display = 'none';
+        isOverlayOpen = false;
+      }
+    }
+
+    // Close overlay when clicking outside the enlarged flashcard
+    document.getElementById('overlay').addEventListener('click', (e) => {
+      if (e.target === e.currentTarget) {
+        toggleEnlargedView(); // Close the overlay
+      }
+    });
+
+    // Fetch words from words.txt and initialize the flashcard
+    fetch('words.txt')
+      .then(response => response.text())
+      .then(text => {
+        wordsList = parseWords(text);
+        createFlashcards();
+      })
+      .catch(error => {
+        console.error('Error fetching words.txt:', error);
+      });
+  </script>
 
 </body>
 </html>
